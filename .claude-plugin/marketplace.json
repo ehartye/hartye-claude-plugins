@@ -1,0 +1,23 @@
+{
+  "name": "hartye-plugins",
+  "owner": {
+    "name": "ehartye",
+    "email": "eric@hartye.com"
+  },
+  "plugins": [
+    {
+      "name": "sf-browser-control",
+      "source": {
+        "source": "github",
+        "repo": "ehartye/sf-browser-control"
+      },
+      "description": "Salesforce browser automation via SF CLI - 45+ tools for session management, Lightning navigation, form filling, record operations, and Setup automation",
+      "version": "1.0.0",
+      "author": {
+        "name": "ehartye"
+      },
+      "repository": "https://github.com/ehartye/sf-browser-control",
+      "license": "MIT"
+    }
+  ]
+}
