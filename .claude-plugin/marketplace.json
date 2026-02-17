@@ -18,6 +18,20 @@
       },
       "repository": "https://github.com/ehartye/sf-browser-control",
       "license": "MIT"
+    },
+    {
+      "name": "hartye-superpowers",
+      "source": {
+        "source": "github",
+        "repo": "ehartye/hartye-superpowers"
+      },
+      "description": "An agentic skills framework for AI coding assistants - composable workflows for planning, TDD, debugging, and code review",
+      "version": "1.0.0",
+      "author": {
+        "name": "ehartye"
+      },
+      "repository": "https://github.com/ehartye/hartye-superpowers",
+      "license": "MIT"
     }
   ]
 }
