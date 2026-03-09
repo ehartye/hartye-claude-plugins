@@ -32,6 +32,20 @@
       },
       "repository": "https://github.com/ehartye/hartye-superpowers",
       "license": "MIT"
+    },
+    {
+      "name": "agent-stalker",
+      "source": {
+        "source": "github",
+        "repo": "ehartye/agent-stalker"
+      },
+      "description": "Track agent team task assignment, messages, and tool use across Claude Code sessions into SQLite with queryable CLI and web dashboard",
+      "version": "0.1.0",
+      "author": {
+        "name": "ehartye"
+      },
+      "repository": "https://github.com/ehartye/agent-stalker",
+      "license": "MIT"
     }
   ]
 }
