@@ -40,7 +40,7 @@
         "repo": "ehartye/agent-stalker"
       },
       "description": "Track agent team task assignment, messages, and tool use across Claude Code sessions into SQLite with queryable CLI and web dashboard",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "author": {
         "name": "ehartye"
       },
