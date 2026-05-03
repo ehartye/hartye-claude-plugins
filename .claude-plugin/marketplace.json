@@ -46,6 +46,20 @@
       },
       "repository": "https://github.com/ehartye/agent-stalker",
       "license": "MIT"
+    },
+    {
+      "name": "md-publisher",
+      "source": {
+        "source": "github",
+        "repo": "ehartye/md-publisher"
+      },
+      "description": "Turn markdown documents (with embedded mermaid) into themed, searchable, paged PDFs via WeasyPrint. 4 skills (publish, preprocess, theme-advisor, theme-gallery) + 6 bundled themes (atlas/phosphor/arcade in light + dark) + interactive custom-theme creation",
+      "version": "0.1.0",
+      "author": {
+        "name": "ehartye"
+      },
+      "repository": "https://github.com/ehartye/md-publisher",
+      "license": "MIT"
     }
   ]
 }
