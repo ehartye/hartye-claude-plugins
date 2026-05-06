@@ -53,8 +53,8 @@
         "source": "github",
         "repo": "ehartye/md-publisher"
       },
-      "description": "Turn markdown documents (with embedded mermaid) into themed, searchable, paged PDFs via WeasyPrint AND Microsoft Word DOCX via python-docx. 5 skills (publish with --format pdf|docx|both, preprocess, theme-advisor, theme-gallery, install-fonts) + 6 bundled themes (atlas/phosphor/arcade in light + dark) + interactive custom-theme creation + cross-platform Google Fonts installer",
-      "version": "0.2.0",
+      "description": "Turn markdown documents (with embedded mermaid) into themed, searchable, paged PDFs via WeasyPrint AND Microsoft Word DOCX via python-docx. 5 skills (publish with --format pdf|docx|both, preprocess, theme-advisor, theme-gallery with live palette swatches + typography samples, install-fonts) + 6 bundled themes (atlas/phosphor/arcade in light + dark) + interactive custom-theme creation + cross-platform Google Fonts installer + macOS/Linux/Windows native-dep probes via bootstrap --doctor",
+      "version": "0.2.1",
       "author": {
         "name": "ehartye"
       },
