@@ -60,6 +60,19 @@
       },
       "repository": "https://github.com/ehartye/md-publisher",
       "license": "MIT"
+    },
+    {
+      "name": "wiki-master",
+      "source": {
+        "source": "github",
+        "repo": "ehartye/wiki-master"
+      },
+      "description": "Maintain a Karpathy-style LLM wiki on Obsidian via the native obsidian CLI - discover and clip web sources, ingest PDFs/DOCX, then query, lint, and relink them into a cross-referenced knowledge vault",
+      "version": "0.8.3",
+      "author": {
+        "name": "ehartye"
+      },
+      "repository": "https://github.com/ehartye/wiki-master"
     }
   ]
 }
