@@ -1,6 +1,7 @@
 # Hartye Claude Plugins
 
-A collection of Claude Code plugins for Salesforce development and automation.
+A collection of Claude Code plugins for agentic development workflows, session
+analytics, document publishing, knowledge management, and Salesforce automation.
 
 ## Installation
 
