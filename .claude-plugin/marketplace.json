@@ -73,6 +73,20 @@
         "name": "ehartye"
       },
       "repository": "https://github.com/ehartye/wiki-master"
+    },
+    {
+      "name": "hartye-skills",
+      "source": {
+        "source": "github",
+        "repo": "ehartye/hartye-skills"
+      },
+      "description": "General-purpose utility skills for Claude Code - small, self-contained techniques useful across many projects. Currently: ship-it (commit, branch, push, PR and squash-merge pending work in one step)",
+      "version": "0.1.0",
+      "author": {
+        "name": "ehartye"
+      },
+      "repository": "https://github.com/ehartye/hartye-skills",
+      "license": "MIT"
     }
   ]
 }
