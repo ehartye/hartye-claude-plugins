@@ -12,7 +12,7 @@
         "repo": "ehartye/claude-sprites"
       },
       "description": "Pixel-art sprite authoring toolset for 2D game projects — parametric shapes, ramp-aware lighting automation, animation groups with tween, Aseprite JSON atlas export consumed by Phaser/Unity/Godot, and a live collaborative web UI",
-      "version": "0.5.0",
+      "version": "0.5.1",
       "author": {
         "name": "ehartye"
       },
