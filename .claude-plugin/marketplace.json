@@ -6,6 +6,20 @@
   },
   "plugins": [
     {
+      "name": "claude-sprites",
+      "source": {
+        "source": "github",
+        "repo": "ehartye/claude-sprites"
+      },
+      "description": "Pixel-art sprite authoring toolset for 2D game projects — parametric shapes, ramp-aware lighting automation, animation groups with tween, Aseprite JSON atlas export consumed by Phaser/Unity/Godot, and a live collaborative web UI",
+      "version": "0.5.0",
+      "author": {
+        "name": "ehartye"
+      },
+      "repository": "https://github.com/ehartye/claude-sprites",
+      "license": "MIT"
+    },
+    {
       "name": "sf-browser-control",
       "source": {
         "source": "github",
