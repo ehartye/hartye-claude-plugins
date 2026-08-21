@@ -82,7 +82,7 @@
         "repo": "ehartye/wiki-master"
       },
       "description": "Maintain a Karpathy-style LLM wiki on Obsidian via the native obsidian CLI - discover and clip web sources, ingest PDFs/DOCX, then query, lint, and relink them into a cross-referenced knowledge vault",
-      "version": "0.20.0",
+      "version": "0.21.0",
       "author": {
         "name": "ehartye"
       },
