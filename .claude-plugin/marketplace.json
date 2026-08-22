@@ -89,6 +89,20 @@
       "repository": "https://github.com/ehartye/wiki-master"
     },
     {
+      "name": "academia-fetch",
+      "source": {
+        "source": "github",
+        "repo": "ehartye/academia-fetch"
+      },
+      "description": "Find papers worth reading via OpenAlex, then retrieve them from academia.edu with your own subscription and stage them for wiki-master ingest - human-paced rather than a crawler, with an enforced per-run delay and ceiling, and an open-access short-circuit that skips the subscription entirely when a paper is legitimately free elsewhere",
+      "version": "0.2.0",
+      "author": {
+        "name": "ehartye"
+      },
+      "repository": "https://github.com/ehartye/academia-fetch",
+      "license": "MIT"
+    },
+    {
       "name": "hartye-skills",
       "source": {
         "source": "github",
