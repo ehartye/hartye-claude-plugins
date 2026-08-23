@@ -122,8 +122,8 @@
         "source": "github",
         "repo": "ehartye/book-nom"
       },
-      "description": "Capture printed books into the family wiki - iPhone document scans to wiki-ready markdown via local OCR/VLM routing (Tesseract + Qwen via Ollama), with spread splitting, per-page provenance metadata, selective page images, and an optional guarded polish pass. Includes the book-capture skill documenting the scan/process/polish/ingest workflow",
-      "version": "0.1.0",
+      "description": "Capture printed books into the family wiki - iPhone document scans to wiki-ready markdown via local OCR/VLM routing (Tesseract + Qwen via Ollama), with spread splitting, per-page provenance metadata, selective page images, and an optional guarded polish pass. Human-in-the-loop split calibration: draggable split lines feed the pipeline verbatim and double as detector ground truth. Includes the book-capture skill documenting the scan/calibrate/process/polish/ingest workflow",
+      "version": "0.2.0",
       "author": {
         "name": "Julie"
       },
