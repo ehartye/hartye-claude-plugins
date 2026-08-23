@@ -115,6 +115,20 @@
       },
       "repository": "https://github.com/ehartye/hartye-skills",
       "license": "MIT"
+    },
+    {
+      "name": "book-nom",
+      "source": {
+        "source": "github",
+        "repo": "ehartye/book-nom"
+      },
+      "description": "Capture printed books into the family wiki - iPhone document scans to wiki-ready markdown via local OCR/VLM routing (Tesseract + Qwen via Ollama), with spread splitting, per-page provenance metadata, selective page images, and an optional guarded polish pass. Includes the book-capture skill documenting the scan/process/polish/ingest workflow",
+      "version": "0.1.0",
+      "author": {
+        "name": "Julie"
+      },
+      "repository": "https://github.com/ehartye/book-nom",
+      "license": "MIT"
     }
   ]
 }
