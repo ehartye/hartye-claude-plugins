@@ -109,7 +109,7 @@
         "repo": "ehartye/hartye-skills"
       },
       "description": "General-purpose utility skills for Claude Code - small, self-contained techniques useful across many projects. beautiful: distinctive frontend design that avoids templated, AI-generated aesthetics, covering direction, typography, layout, motion and interface copy. ship-it: commit, branch, push, PR and squash-merge pending work in one step. yoda: write, audit and diagnose skills - why a SKILL.md never fires, gets ignored, or competes with another",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "author": {
         "name": "ehartye"
       },
