@@ -8,8 +8,8 @@
     {
       "name": "claude-sprites",
       "source": {
-        "source": "github",
-        "repo": "ehartye/claude-sprites"
+        "source": "url",
+        "url": "https://github.com/ehartye/claude-sprites.git"
       },
       "description": "Pixel-art sprite authoring toolset for 2D game projects — parametric shapes, ramp-aware lighting automation, animation groups with tween, Aseprite JSON atlas export consumed by Phaser/Unity/Godot, and a live collaborative web UI",
       "version": "0.10.0",
@@ -22,8 +22,8 @@
     {
       "name": "sf-browser-control",
       "source": {
-        "source": "github",
-        "repo": "ehartye/sf-browser-control"
+        "source": "url",
+        "url": "https://github.com/ehartye/sf-browser-control.git"
       },
       "description": "Salesforce browser automation via SF CLI - 45+ tools for session management, Lightning navigation, form filling, record operations, and Setup automation",
       "version": "1.0.0",
@@ -36,8 +36,8 @@
     {
       "name": "h-superpowers",
       "source": {
-        "source": "github",
-        "repo": "ehartye/hartye-superpowers"
+        "source": "url",
+        "url": "https://github.com/ehartye/hartye-superpowers.git"
       },
       "description": "An agentic skills framework for AI coding assistants - composable workflows for planning, TDD, debugging, and code review",
       "version": "4.16.0",
@@ -50,8 +50,8 @@
     {
       "name": "agent-stalker",
       "source": {
-        "source": "github",
-        "repo": "ehartye/agent-stalker"
+        "source": "url",
+        "url": "https://github.com/ehartye/agent-stalker.git"
       },
       "description": "Track agent team task assignment, messages, and tool use across Claude Code sessions into SQLite with queryable CLI and web dashboard",
       "version": "0.5.1",
@@ -64,8 +64,8 @@
     {
       "name": "md-publisher",
       "source": {
-        "source": "github",
-        "repo": "ehartye/md-publisher"
+        "source": "url",
+        "url": "https://github.com/ehartye/md-publisher.git"
       },
       "description": "Turn markdown documents (with embedded mermaid) into themed, searchable, paged PDFs via WeasyPrint AND Microsoft Word DOCX via python-docx. 5 skills (publish with --format pdf|docx|both, preprocess, theme-advisor, theme-gallery with live palette swatches + typography samples, install-fonts) + 6 bundled themes (atlas/phosphor/arcade in light + dark) + interactive custom-theme creation + cross-platform Google Fonts installer + macOS/Linux/Windows native-dep probes via bootstrap --doctor",
       "version": "0.5.4",
@@ -78,8 +78,8 @@
     {
       "name": "wiki-master",
       "source": {
-        "source": "github",
-        "repo": "ehartye/wiki-master"
+        "source": "url",
+        "url": "https://github.com/ehartye/wiki-master.git"
       },
       "description": "Maintain a Karpathy-style LLM wiki on Obsidian via the native obsidian CLI - discover and clip web sources, ingest PDFs/DOCX, then query, lint, and relink them into a cross-referenced knowledge vault",
       "version": "0.29.0",
@@ -91,8 +91,8 @@
     {
       "name": "academia-fetch",
       "source": {
-        "source": "github",
-        "repo": "ehartye/academia-fetch"
+        "source": "url",
+        "url": "https://github.com/ehartye/academia-fetch.git"
       },
       "description": "Find papers worth reading via OpenAlex, then retrieve them from academia.edu with your own subscription and stage them for wiki-master ingest - human-paced rather than a crawler, with an enforced per-run delay and ceiling, and an open-access short-circuit that skips the subscription entirely when a paper is legitimately free elsewhere",
       "version": "0.2.0",
@@ -105,8 +105,8 @@
     {
       "name": "hartye-skills",
       "source": {
-        "source": "github",
-        "repo": "ehartye/hartye-skills"
+        "source": "url",
+        "url": "https://github.com/ehartye/hartye-skills.git"
       },
       "description": "General-purpose utility skills for Claude Code - small, self-contained techniques useful across many projects. beautiful: distinctive frontend design that avoids templated, AI-generated aesthetics, covering direction, typography, layout, motion and interface copy. ship-it: commit, branch, push, PR and squash-merge pending work in one step. yoda: write, audit and diagnose skills - why a SKILL.md never fires, gets ignored, or competes with another. rubber-duck: get a second opinion from the other vendor model and record it verbatim",
       "version": "0.4.0",
@@ -119,8 +119,8 @@
     {
       "name": "book-nom",
       "source": {
-        "source": "github",
-        "repo": "ehartye/book-nom"
+        "source": "url",
+        "url": "https://github.com/ehartye/book-nom.git"
       },
       "description": "Capture printed books into the family wiki - iPhone document scans to wiki-ready markdown via local OCR/VLM routing (Tesseract + Qwen via Ollama), with spread splitting, per-page provenance metadata, selective page images, and an optional guarded polish pass. Human-in-the-loop split calibration: draggable split lines feed the pipeline verbatim and double as detector ground truth. Includes the book-capture skill documenting the scan/calibrate/process/polish/ingest workflow",
       "version": "0.2.1",
