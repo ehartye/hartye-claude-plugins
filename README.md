@@ -35,8 +35,9 @@ analytics, sprite authoring, document publishing, knowledge management, and Sale
 
 ### Agent Sprites setup and upgrades
 
-After installing `agent-sprites`, install its native server dependencies with
-`npm install --prefix <plugin-install-dir>`. See the
+After installing or updating `agent-sprites`, run `/agent-sprites:sprite-setup`.
+It installs the CLI outside the plugin cache, links it, and checks plugin/CLI/server
+version sync. Sprite skills always use the matching managed install. See the
 [Agent Sprites installation guide](https://github.com/ehartye/agent-sprites#install)
 for details. If upgrading from `claude-sprites`, install `agent-sprites` and disable
 the old plugin to avoid duplicate commands. Existing saved sessions remain compatible.
