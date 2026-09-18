@@ -42,6 +42,10 @@ version sync. Sprite skills always use the matching managed install. See the
 for details. If upgrading from `claude-sprites`, install `agent-sprites` and disable
 the old plugin to avoid duplicate commands. Existing saved sessions remain compatible.
 
+Version 0.15.1 includes eleven native skills, offline atlas verification, isolated
+project builds with playable previews, and a copyable four-beat character walk
+recipe. See the [build workflow](https://github.com/ehartye/agent-sprites#build-a-repeatable-asset-project).
+
 ## License
 
 MIT
