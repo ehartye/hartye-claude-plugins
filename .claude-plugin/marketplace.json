@@ -6,17 +6,17 @@
   },
   "plugins": [
     {
-      "name": "claude-sprites",
+      "name": "agent-sprites",
       "source": {
         "source": "url",
-        "url": "https://github.com/ehartye/claude-sprites.git"
+        "url": "https://github.com/ehartye/agent-sprites.git"
       },
-      "description": "Pixel-art sprite authoring toolset for 2D game projects — parametric shapes, ramp-aware lighting automation, animation groups with tween, Aseprite JSON atlas export consumed by Phaser/Unity/Godot, and a live collaborative web UI",
-      "version": "0.10.0",
+      "description": "Pixel-art sprite authoring toolset for 2D game projects — parametric shapes, ramp-aware lighting, animation groups, Aseprite JSON atlas export, and a live collaborative web UI",
+      "version": "0.11.0",
       "author": {
         "name": "ehartye"
       },
-      "repository": "https://github.com/ehartye/claude-sprites",
+      "repository": "https://github.com/ehartye/agent-sprites",
       "license": "MIT"
     },
     {
