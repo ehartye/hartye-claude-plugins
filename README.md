@@ -28,7 +28,7 @@ analytics, sprite and 3D model authoring, web-app video production, document pub
 |--------|-------------|
 | [agent-sprites](https://github.com/ehartye/agent-sprites) | Pixel-art sprite authoring for 2D games with parametric shapes, lighting, animation groups, PNG/Aseprite atlas export, and a live collaborative web UI |
 | [agent-meshes](https://github.com/ehartye/agent-meshes) | Named-part 3D authoring for coding agents - rigged, animated GLB models from JSON operations, creature recipes with real gaits, isolated verified builds with renders and offline previews, an embeddable three.js viewer, and an optional Blender refine stage |
-| [agent-vids](https://github.com/ehartye/agent-vids) | Marketing and training videos of web apps for coding agents - analyse the app, recommend a brief, storyboard it, and render narrated, captioned video checked against 59 evidence-backed craft rules, with reusable channels and style flavors and a LAN review page |
+| [agent-vids](https://github.com/ehartye/agent-vids) | Marketing and training videos of web apps for coding agents - analyse the app, recommend a brief, storyboard it, and render narrated, captioned video checked against 60 evidence-backed craft rules, with reusable channels and style flavors, and a LAN review page where you pick and order exhibits and finalize the stitched video |
 | [sf-browser-control](https://github.com/ehartye/sf-browser-control) | Salesforce browser automation via SF CLI - 45+ tools for session management, Lightning navigation, form filling, and Setup automation |
 | [h-superpowers](https://github.com/ehartye/hartye-superpowers) | An agentic skills framework for AI coding assistants - composable workflows for planning, TDD, debugging, and code review |
 | [agent-stalker](https://github.com/ehartye/agent-stalker) | Track agent team task assignment, messages, and tool use across Claude Code sessions into SQLite with queryable CLI and web dashboard |
@@ -63,6 +63,12 @@ After installing or updating `agent-vids`, run `/agent-vids:vid-setup`. Setup co
 the plugin cache, installs dependencies (including a static ffmpeg), installs Chromium for capture and
 links the `vids` CLI. Node.js 24 or newer is required. Narrated renders use OpenAI text-to-speech and
 need `OPENAI_API_KEY`; silent drafts (`--draft`) work without it.
+
+To let the owner choose what goes in a video, give a storyboard more exhibits than it needs and
+`"select": { "pick": N }`, run `vids candidates`, and open the review page: it previews every
+exhibit with a score and the agent's notes, and its Finalize button stitches the chosen set without
+recapturing. Capture asks Chromium for the GPU, so WebGL apps record smoothly; the report names the
+renderer and warns when a scene falls below 15 fps.
 
 ## License
 
