@@ -40,7 +40,7 @@
         "url": "https://github.com/ehartye/agent-vids.git"
       },
       "description": "Marketing and training videos of web apps for coding agents - analyse the app, recommend a brief with cited craft rules, storyboard it, and render narrated, captioned, craft-checked video with Playwright capture and ffmpeg; 59 evidence-backed rules for length, calls to action, text size relative to the frame, contrast, captions and narration language, reusable channel profiles and style flavors, voice auditions, and a LAN review page. Five skills: vid-setup, vid-discover, vid-brief, vid-storyboard, vid-render",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "ehartye"
       },
