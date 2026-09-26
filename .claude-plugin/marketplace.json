@@ -26,7 +26,7 @@
         "url": "https://github.com/ehartye/agent-meshes.git"
       },
       "description": "Named-part 3D authoring for coding agents - build rigged, animated GLB models from JSON operations (primitives, lathe and prism profiles, organic shells), creature recipes with walk, trot and gallop gaits and Jansen's Strandbeest linkage, isolated verified builds with renders, contact sheets and offline previews, an embeddable three.js viewer with a scripted puppet API, and an optional Blender refine stage. Five skills: mesh-setup, mesh-authoring, mesh-rigging, mesh-build, mesh-believable",
-        "version": "0.3.0",
+        "version": "0.4.0",
       "author": {
         "name": "ehartye"
       },
