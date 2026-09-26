@@ -48,6 +48,20 @@
       "license": "MIT"
     },
     {
+      "name": "agent-beeps",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ehartye/agent-beeps.git"
+      },
+      "description": "Procedural sound composer for coding agents - game and UI sound effects as Web Audio patches (oscillators, FM, additive, modal, grains, 808 metal) rendered in Chromium, loudness-matched and measured (BS.1770 loudness, true peak, sharpness, roughness, pitch), checked against cited craft rules, and generated as diverse, prompt-steered sets from 18 SFX archetypes; the owner auditions them on a LAN listening page (keep/dud lineup, duels, refine toward brighter/darker/punchier/shorter, ship into the kit) and every judgement trains a Bradley-Terry taste model that ranks and predicts future sets, while each audition scores the agent's sealed prediction. Five skills: beeps-setup, beeps-compose, beeps-craft, beeps-audition, beeps-taste",
+      "version": "0.1.0",
+      "author": {
+        "name": "ehartye"
+      },
+      "repository": "https://github.com/ehartye/agent-beeps",
+      "license": "MIT"
+    },
+    {
       "name": "sf-browser-control",
       "source": {
         "source": "url",
