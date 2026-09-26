@@ -1,7 +1,7 @@
 # Hartye Claude Plugins
 
 A collection of Claude Code plugins for agentic development workflows, session
-analytics, sprite and 3D model authoring, web-app video production, document publishing, knowledge management, and Salesforce automation.
+analytics, sprite and 3D model authoring, web-app video production, procedural game audio, document publishing, knowledge management, and Salesforce automation.
 
 ## Installation
 
@@ -13,6 +13,7 @@ analytics, sprite and 3D model authoring, web-app video production, document pub
 /plugin install agent-sprites@hartye-plugins
 /plugin install agent-meshes@hartye-plugins
 /plugin install agent-vids@hartye-plugins
+/plugin install agent-beeps@hartye-plugins
 /plugin install sf-browser-control@hartye-plugins
 /plugin install h-superpowers@hartye-plugins
 /plugin install agent-stalker@hartye-plugins
@@ -29,6 +30,7 @@ analytics, sprite and 3D model authoring, web-app video production, document pub
 | [agent-sprites](https://github.com/ehartye/agent-sprites) | Pixel-art sprite authoring for 2D games with parametric shapes, lighting, animation groups, PNG/Aseprite atlas export, and a live collaborative web UI |
 | [agent-meshes](https://github.com/ehartye/agent-meshes) | Named-part 3D authoring for coding agents - rigged, animated GLB models from JSON operations, creature recipes with real gaits, isolated verified builds with renders and offline previews, an embeddable three.js viewer, and an optional Blender refine stage |
 | [agent-vids](https://github.com/ehartye/agent-vids) | Marketing and training videos of web apps for coding agents - analyse the app, recommend a brief, storyboard it, and render narrated, captioned video checked against 60 evidence-backed craft rules, with reusable channels and style flavors, and a LAN review page where you pick and order exhibits and finalize the stitched video |
+| [agent-beeps](https://github.com/ehartye/agent-beeps) | Procedural game and UI sounds for coding agents - Web Audio patches rendered in Chromium, loudness-matched, measured and checked against cited craft rules, generated as diverse sets from 18 archetypes, and auditioned by you on a LAN listening page (lineup, duels, refine by ear, ship) that trains a taste model predicting your next pick |
 | [sf-browser-control](https://github.com/ehartye/sf-browser-control) | Salesforce browser automation via SF CLI - 45+ tools for session management, Lightning navigation, form filling, and Setup automation |
 | [h-superpowers](https://github.com/ehartye/hartye-superpowers) | An agentic skills framework for AI coding assistants - composable workflows for planning, TDD, debugging, and code review |
 | [agent-stalker](https://github.com/ehartye/agent-stalker) | Track agent team task assignment, messages, and tool use across Claude Code sessions into SQLite with queryable CLI and web dashboard |
@@ -69,6 +71,17 @@ To let the owner choose what goes in a video, give a storyboard more exhibits th
 exhibit with a score and the agent's notes, and its Finalize button stitches the chosen set without
 recapturing. Capture asks Chromium for the GPU, so WebGL apps record smoothly; the report names the
 renderer and warns when a scene falls below 15 fps.
+
+### Agent Beeps setup
+
+After installing or updating `agent-beeps`, run `/agent-beeps:beeps-setup`. Setup copies the runtime outside
+the plugin cache, installs dependencies and Chromium (every sound is rendered by the browser's own Web Audio
+engine) and links the `beeps` CLI. Node.js 24 or newer is required.
+
+Agents seal a prediction, then send you a link to the listening page (`http://<host>:47301/s/<id>?t=<token>`,
+plus an IP-address link for phones). Keep and dud a lineup, duel the keepers, nudge the winner brighter,
+darker, punchier or shorter, and ship it into the project's kit. Your explicit choices build a taste profile
+across projects (`beeps taste show`); other machines need the firewall to allow Node on port 47301.
 
 ## License
 
