@@ -57,7 +57,12 @@ recipe. See the [build workflow](https://github.com/ehartye/agent-sprites#build-
 After installing or updating `agent-meshes`, run `/agent-meshes:mesh-setup`. The plugin cache is a
 bare checkout, so setup copies the runtime outside it, installs dependencies, builds the workbench,
 installs Chromium for renders and links the CLI; every mesh skill then runs through the checked
-launcher. Node.js 24 or newer is required. Blender is optional and only needed for the refine stage.
+launcher. Node.js 24 or newer is required. Blender is optional and needed for authored meshes and the refine stage.
+
+Version 0.2.0 adds reusable source recipes for stylized character anatomy and
+deterministic foliage, with saved parameters, bounded mesh detail and validated
+exports. The [recipe guide](https://github.com/ehartye/agent-meshes/blob/main/recipes/README.md)
+explains copying them from the plugin/source checkout into repeatable asset builds.
 
 ### Agent Vids setup
 
