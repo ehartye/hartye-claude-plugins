@@ -14,6 +14,7 @@ analytics, sprite and 3D model authoring, web-app video production, procedural g
 /plugin install agent-meshes@hartye-plugins
 /plugin install agent-vids@hartye-plugins
 /plugin install agent-beeps@hartye-plugins
+/plugin install agent-engine@hartye-plugins
 /plugin install sf-browser-control@hartye-plugins
 /plugin install h-superpowers@hartye-plugins
 /plugin install agent-stalker@hartye-plugins
@@ -31,6 +32,7 @@ analytics, sprite and 3D model authoring, web-app video production, procedural g
 | [agent-meshes](https://github.com/ehartye/agent-meshes) | Named-part 3D authoring for coding agents - rigged, animated GLB models from JSON operations, creature recipes with real gaits, isolated verified builds with renders and offline previews, an embeddable three.js viewer, and an optional Blender refine stage |
 | [agent-vids](https://github.com/ehartye/agent-vids) | Marketing and training videos of web apps for coding agents - analyse the app, recommend a brief, storyboard it, and render narrated, captioned video checked against 60 evidence-backed craft rules, with reusable channels and style flavors, and a LAN review page where you pick and order exhibits and finalize the stitched video |
 | [agent-beeps](https://github.com/ehartye/agent-beeps) | Procedural game and UI sounds for coding agents - Web Audio patches rendered in Chromium, loudness-matched, measured and checked against cited craft rules, generated as diverse sets from 18 archetypes, and auditioned by you on a LAN listening page (lineup, duels, refine by ear, ship) that trains a taste model predicting your next pick |
+| [agent-engine](https://github.com/ehartye/agent-engine) | Skills that glue sprite, mesh and sound assets into Unity, Unreal and Godot projects - per-engine import traps with a strict line between verified and documented, and a sample scene as the acceptance test for each engine. Early: only the Unreal mesh import is verified so far |
 | [sf-browser-control](https://github.com/ehartye/sf-browser-control) | Salesforce browser automation via SF CLI - 45+ tools for session management, Lightning navigation, form filling, and Setup automation |
 | [h-superpowers](https://github.com/ehartye/hartye-superpowers) | An agentic skills framework for AI coding assistants - composable workflows for planning, TDD, debugging, and code review |
 | [agent-stalker](https://github.com/ehartye/agent-stalker) | Track agent team task assignment, messages, and tool use across Claude Code sessions into SQLite with queryable CLI and web dashboard |
