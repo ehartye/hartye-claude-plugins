@@ -67,8 +67,8 @@
         "source": "url",
         "url": "https://github.com/ehartye/agent-engine.git"
       },
-      "description": "Skills that glue agent-sprites, agent-meshes and agent-beeps assets into Unity, Unreal and Godot projects - the known per-engine import traps with a strict line between what is verified and what is only documented, and a sample scene that acts as the acceptance test for each engine. Early: only the Unreal mesh import is verified so far. One skill: engine-asset-import",
-      "version": "0.1.1",
+      "description": "Skills that help choose a game engine or web stack for agent-built projects (ease of AI-assisted development against quality and reach, with each option limits) and glue agent-sprites, agent-meshes and agent-beeps assets into Unity, Unreal, UEFN, Godot and the web - per-engine import traps, what has been verified, and a sample scene as the acceptance test. Early: Unreal is the only engine tested. Two skills: engine-selection, engine-asset-import",
+      "version": "0.2.0",
       "author": {
         "name": "ehartye"
       },
