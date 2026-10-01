@@ -68,7 +68,7 @@
         "url": "https://github.com/ehartye/agent-engine.git"
       },
       "description": "Skills that help choose a game engine or web stack for agent-built projects (ease of AI-assisted development against quality and reach, with each option limits) and glue agent-sprites, agent-meshes and agent-beeps assets into Unity, Unreal, UEFN, Godot and the web - per-engine import traps, what has been verified, and a sample scene as the acceptance test. Early: Unreal, Godot, Unity and the web tier are tested. Two skills: engine-selection, engine-asset-import",
-      "version": "0.5.0",
+      "version": "0.5.1",
       "author": {
         "name": "ehartye"
       },
