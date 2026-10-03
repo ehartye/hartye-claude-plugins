@@ -62,6 +62,20 @@
       "license": "MIT"
     },
     {
+      "name": "agent-prose",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ehartye/agent-prose.git"
+      },
+      "description": "Writing-craft toolkit for coding agents - game quest dialogue, barks and branching conversations, user instructions and technical docs, academic and professional prose, multi- and single-camera sitcom, TV drama, stage plays, YouTube scripts and speeches, drafted in native formats (Fountain, Markdown, a dialogue YAML graph) and measured and linted by the prose CLI against 40 cited craft rules: spoken duration and breath units, script pages and runtime, per-segment YouTube pace, dialogue graph integrity and text-box fit, length targets, AI-tell style findings, and character voice bibles. Eight skills: prose-setup, prose-dialog, prose-script, prose-speech, prose-instruct, prose-formal, prose-comedy, prose-voice",
+      "version": "0.1.0",
+      "author": {
+        "name": "ehartye"
+      },
+      "repository": "https://github.com/ehartye/agent-prose",
+      "license": "MIT"
+    },
+    {
       "name": "agent-engine",
       "source": {
         "source": "url",
