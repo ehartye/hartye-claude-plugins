@@ -1,7 +1,7 @@
 # Hartye Claude Plugins
 
 A collection of Claude Code plugins for agentic development workflows, session
-analytics, sprite and 3D model authoring, web-app video production, procedural game audio, document publishing, knowledge management, and Salesforce automation.
+analytics, sprite and 3D model authoring, web-app video production, procedural game audio, writing craft, document publishing, knowledge management, and Salesforce automation.
 
 ## Installation
 
@@ -14,6 +14,7 @@ analytics, sprite and 3D model authoring, web-app video production, procedural g
 /plugin install agent-meshes@hartye-plugins
 /plugin install agent-vids@hartye-plugins
 /plugin install agent-beeps@hartye-plugins
+/plugin install agent-prose@hartye-plugins
 /plugin install agent-engine@hartye-plugins
 /plugin install sf-browser-control@hartye-plugins
 /plugin install h-superpowers@hartye-plugins
@@ -32,6 +33,7 @@ analytics, sprite and 3D model authoring, web-app video production, procedural g
 | [agent-meshes](https://github.com/ehartye/agent-meshes) | Named-part 3D authoring for coding agents - rigged, animated GLB models from JSON operations, creature recipes with real gaits, isolated verified builds with renders and offline previews, an embeddable three.js viewer, and an optional Blender refine stage |
 | [agent-vids](https://github.com/ehartye/agent-vids) | Marketing and training videos of web apps for coding agents - analyse the app, recommend a brief, storyboard it, and render narrated, captioned video checked against 60 evidence-backed craft rules, with reusable channels and style flavors, and a LAN review page where you pick and order exhibits and finalize the stitched video |
 | [agent-beeps](https://github.com/ehartye/agent-beeps) | Procedural game and UI sounds for coding agents - Web Audio patches rendered in Chromium, loudness-matched, measured and checked against cited craft rules, generated as diverse sets from 18 archetypes, and auditioned by you on a LAN listening page (lineup, duels, refine by ear, ship) that trains a taste model predicting your next pick |
+| [agent-prose](https://github.com/ehartye/agent-prose) | Writing craft for coding agents - game dialogue and barks, user instructions, academic and professional prose, sitcom, TV drama, stage plays, YouTube scripts and speeches, drafted in native formats and measured and linted against 40 cited craft rules (spoken timing, script pages, segment pace, dialogue graphs, text-box fit, length targets, voice bibles) |
 | [agent-engine](https://github.com/ehartye/agent-engine) | Skills that help choose a game engine or web stack for agent-built projects and glue sprite, mesh and sound assets into Unity, Unreal, UEFN, Godot and the web - engine selection by agent-ease against quality, per-engine import traps, and a sample scene as the acceptance test. Early: Unreal is the only engine tested |
 | [sf-browser-control](https://github.com/ehartye/sf-browser-control) | Salesforce browser automation via SF CLI - 45+ tools for session management, Lightning navigation, form filling, and Setup automation |
 | [h-superpowers](https://github.com/ehartye/hartye-superpowers) | An agentic skills framework for AI coding assistants - composable workflows for planning, TDD, debugging, and code review |
@@ -90,6 +92,15 @@ Agents seal a prediction, then send you a link to the listening page (`http://<h
 plus an IP-address link for phones). Keep and dud a lineup, duel the keepers, nudge the winner brighter,
 darker, punchier or shorter, and ship it into the project's kit. Your explicit choices build a taste profile
 across projects (`beeps taste show`); other machines need the firewall to allow Node on port 47301.
+
+### Agent Prose setup
+
+After installing or updating `agent-prose`, run `/agent-prose:prose-setup`. Setup copies the runtime outside
+the plugin cache, installs its dependencies and links the `prose` CLI. Node.js 24 or newer is required.
+
+Skills draft in Fountain, Markdown with frontmatter, or a `prose/dialog@1` YAML graph, then run `prose lint`
+and report measured numbers - duration, pages, words per minute, line lengths - instead of estimates.
+`prose init` creates a project for voice bibles and per-form overrides such as a game's text-box size.
 
 ## License
 
