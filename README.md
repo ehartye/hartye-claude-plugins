@@ -107,6 +107,12 @@ and report measured numbers - duration, pages, words per minute, line lengths - 
 serves, so use `--local` to keep it on your machine.
 `prose init` creates a project for voice bibles and per-form overrides such as a game's text-box size.
 
+Version 0.6.0 adds eight craft reference guides covering all 24 forms (`prose guide`), character and
+context briefs with the current line beside rewrite options, side-by-side comparison, batch review of
+up to 50 sets, and line strikes with reasons and confirmed apply/undo. Choose **None of these** to send
+variants back with feedback; the agent carries that feedback into the next round. Fourteen skills
+include `prose-strike` and `prose-review-batch`.
+
 ## License
 
 MIT
