@@ -67,8 +67,8 @@
         "source": "url",
         "url": "https://github.com/ehartye/agent-prose.git"
       },
-      "description": "Writing-craft toolkit for coding agents: poems and song lyrics, game dialogue and barks, instructions and technical docs, academic and professional prose, screen and stage scripts, YouTube scripts and speeches. Drafts in native formats, measured and linted against 55 cited craft rules. New in 0.6.0: eight craft reference guides covering all 24 forms via prose guide; character and context briefs with the current line beside rewrite options; a side-by-side reading-page comparison; batch review of up to 50 sets; line strikes with reasons and confirmed apply/undo; and a None of these choice that sends variants back with feedback for another round. Fourteen skills, voice bibles, diverse variant sets, sealed predictions, a taste model learned from owner choices, browser read-aloud and an AI-style hallmarks audit that never judges who wrote a passage.",
-      "version": "0.6.0",
+      "description": "Writing-craft toolkit for coding agents: poems and song lyrics, game dialogue and barks, instructions and technical docs, academic and professional prose, screen and stage scripts, YouTube scripts and speeches. Drafts in native formats, measured and linted against cited craft rules. New in 0.7.0: offline PDF and HTML reading copies, dialogue JSON exports, explicit OpenAI read-aloud WAV audio, and guarded dialogue source imports, line reviews, picked-text apply and undo. Craft corrections add hour-long YouTube timestamps, hymn meter aliases and family rhymes. Fourteen skills, eight craft guides, voice bibles, variant sets, sealed predictions, a taste model learned from owner choices, LAN review and an AI-style hallmarks audit that never judges authorship.",
+      "version": "0.7.0",
       "author": {
         "name": "ehartye"
       },
