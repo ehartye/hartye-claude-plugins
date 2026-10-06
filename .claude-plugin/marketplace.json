@@ -11,8 +11,8 @@
         "source": "url",
         "url": "https://github.com/ehartye/agent-sprites.git"
       },
-      "description": "Pixel-art sprite authoring toolset for 2D game projects — parametric shapes, ramp-aware lighting, animation groups, Aseprite JSON atlas export, and a live collaborative web UI",
-      "version": "0.29.0",
+      "description": "Pixel-art sprite authoring toolset for 2D game projects — parametric shapes, ramp-aware lighting, animation groups, Aseprite JSON atlas export, and a live collaborative web UI. Editable storyboard blocking panels with replayable named shapes, verified PNGs and contact sheets support agent-prose story plans.",
+      "version": "0.74.1",
       "author": {
         "name": "ehartye"
       },
@@ -67,8 +67,8 @@
         "source": "url",
         "url": "https://github.com/ehartye/agent-prose.git"
       },
-      "description": "Writing-craft toolkit for coding agents: poems and song lyrics, game dialogue and barks, instructions and technical docs, academic and professional prose, screen and stage scripts, YouTube scripts and speeches. Drafts in native formats, measured and linted against cited craft rules. New in 0.7.0: offline PDF and HTML reading copies, dialogue JSON exports, explicit OpenAI read-aloud WAV audio, and guarded dialogue source imports, line reviews, picked-text apply and undo. Craft corrections add hour-long YouTube timestamps, hymn meter aliases and family rhymes. Fourteen skills, eight craft guides, voice bibles, variant sets, sealed predictions, a taste model learned from owner choices, LAN review and an AI-style hallmarks audit that never judges authorship.",
-      "version": "0.7.0",
+      "description": "Writing-craft toolkit for coding agents: poems and song lyrics, game dialogue and barks, instructions and technical docs, academic and professional prose, screen and stage scripts, YouTube scripts and speeches. Fifteen skills, including illustrated storyboards with editable panels, choices, source/proposal labels and character quest tracks in an offline reading copy. Native drafts, cited craft checks, voice bibles, variants, owner reviews and learned taste; PDF/HTML reading copies and guarded dialogue source round trips.",
+      "version": "0.8.0",
       "author": {
         "name": "ehartye"
       },
