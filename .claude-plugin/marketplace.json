@@ -67,8 +67,8 @@
         "source": "url",
         "url": "https://github.com/ehartye/agent-prose.git"
       },
-      "description": "Writing-craft toolkit for coding agents: poems and song lyrics, game dialogue and barks, instructions and technical docs, academic and professional prose, screen and stage scripts, YouTube scripts and speeches. Fifteen skills, including illustrated storyboards with editable panels, choices, source/proposal labels and character quest tracks in an offline reading copy. Native drafts, cited craft checks, voice bibles, variants, owner reviews and learned taste; PDF/HTML reading copies and guarded dialogue source round trips.",
-      "version": "0.8.0",
+      "description": "Writing-craft toolkit for coding agents: poems and song lyrics, game dialogue and barks, instructions and technical docs, academic and professional prose, screen and stage scripts, YouTube scripts, speeches, professional presentations and webinars. Seventeen skills include slide briefs, speaker notes and rehearsal, webinar run sheets, moderator cues, interaction and demo recovery, plus illustrated storyboards. Native drafts, cited craft checks, voice bibles, variants, owner reviews and learned taste; PDF/HTML reading copies and guarded dialogue source round trips.",
+      "version": "0.9.0",
       "author": {
         "name": "ehartye"
       },
