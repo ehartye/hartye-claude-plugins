@@ -82,7 +82,7 @@
         "url": "https://github.com/ehartye/agent-engine.git"
       },
       "description": "Skills for engine selection, Phaser architecture and verification, custom shaders, and importing agent-sprites, agent-meshes and agent-beeps assets into game engines. Includes pixel UI, accessible controls, native text entry and WebGL2/ES3 shader guidance for Phaser.",
-      "version": "0.11.6",
+      "version": "0.11.7",
       "author": {
         "name": "ehartye"
       },
