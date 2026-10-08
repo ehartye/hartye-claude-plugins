@@ -1,7 +1,7 @@
 # Hartye Claude Plugins
 
 A collection of Claude Code plugins for agentic development workflows, session
-analytics, sprite and 3D model authoring, web-app video production, procedural game audio, writing craft, document publishing, knowledge management, and Salesforce automation.
+analytics, sprite and 3D model authoring, web-app video production, procedural game audio, writing craft, evidence-led project marketing, document publishing, knowledge management, and Salesforce automation.
 
 ## Installation
 
@@ -16,6 +16,7 @@ analytics, sprite and 3D model authoring, web-app video production, procedural g
 /plugin install agent-beeps@hartye-plugins
 /plugin install agent-prose@hartye-plugins
 /plugin install agent-engine@hartye-plugins
+/plugin install agent-marketing@hartye-plugins
 /plugin install sf-browser-control@hartye-plugins
 /plugin install h-superpowers@hartye-plugins
 /plugin install agent-stalker@hartye-plugins
@@ -35,6 +36,7 @@ analytics, sprite and 3D model authoring, web-app video production, procedural g
 | [agent-beeps](https://github.com/ehartye/agent-beeps) | Procedural game and UI sounds for coding agents - Web Audio patches rendered in Chromium, loudness-matched, measured and checked against cited craft rules, generated as diverse sets from 18 archetypes, and auditioned by you on a LAN listening page (lineup, duels, refine by ear, ship) that trains a taste model predicting your next pick |
 | [agent-prose](https://github.com/ehartye/agent-prose) | Writing craft for coding agents - game dialogue and barks, user instructions, academic and professional prose, sitcom, TV drama, stage plays, YouTube scripts, speeches, poems and song lyrics, drafted in native formats and measured and linted against 55 cited craft rules; variant sets let the agent offer measurably different rewrites, seal a prediction of your pick, and learn your taste from what you choose (a taste model states the tendencies in plain words and is scored against the agent's own guess), and a LAN reading page lets you read, hear and compare them on your phone; an audit reports phrasing hallmarks some readers associate with AI-generated text, without ever judging who wrote a passage |
 | [agent-engine](https://github.com/ehartye/agent-engine) | Skills that help choose a game engine or web stack for agent-built projects and glue sprite, mesh and sound assets into Unity, Unreal, UEFN, Godot and the web - engine selection by agent-ease against quality, per-engine import traps, and a sample scene as the acceptance test. Early: Unreal is the only engine tested |
+| [agent-marketing](https://github.com/ehartye/agent-marketing) | Evidence-led project marketing: audience and channels, paying-demand and non-English market research with sourced reports, campaigns, collateral, monitoring, reception and experiment decisions; nine skills, a portable ledger, Node CLI and local campaign desk |
 | [sf-browser-control](https://github.com/ehartye/sf-browser-control) | Salesforce browser automation via SF CLI - 45+ tools for session management, Lightning navigation, form filling, and Setup automation |
 | [h-superpowers](https://github.com/ehartye/hartye-superpowers) | An agentic skills framework for AI coding assistants - composable workflows for planning, TDD, debugging, and code review |
 | [agent-stalker](https://github.com/ehartye/agent-stalker) | Track agent team task assignment, messages, and tool use across Claude Code sessions into SQLite with queryable CLI and web dashboard |
@@ -112,6 +114,14 @@ context briefs with the current line beside rewrite options, side-by-side compar
 up to 50 sets, and line strikes with reasons and confirmed apply/undo. Choose **None of these** to send
 variants back with feedback; the agent carries that feedback into the next round. Fourteen skills
 include `prose-strike` and `prose-review-batch`.
+
+### Agent Marketing setup
+
+After installing or updating `agent-marketing`, run `/agent-marketing:market-setup`. It installs and
+checks the content-verified runtime outside the plugin cache. Node.js 24 or newer is required;
+there are no runtime npm dependencies. Use `/agent-marketing:market-research` for demand and
+non-English market questions, and `/agent-marketing:market-monitor` for the local campaign desk.
+See the [installation and CLI guide](https://github.com/ehartye/agent-marketing#install-the-plugin).
 
 ## License
 
