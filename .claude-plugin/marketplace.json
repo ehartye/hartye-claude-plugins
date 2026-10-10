@@ -12,7 +12,7 @@
         "url": "https://github.com/ehartye/agent-sprites.git"
       },
       "description": "Pixel-art sprite authoring toolset for 2D game projects — parametric shapes, ramp-aware lighting, animation groups, Aseprite JSON atlas export, and a live collaborative web UI. Editable storyboard blocking panels with replayable named shapes, verified PNGs and contact sheets support agent-prose story plans.",
-      "version": "0.86.0",
+      "version": "0.87.0",
       "author": {
         "name": "ehartye"
       },
