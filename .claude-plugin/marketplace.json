@@ -96,7 +96,7 @@
         "url": "https://github.com/ehartye/agent-marketing.git"
       },
       "description": "Evidence-led marketing for family-made tools, apps and games: audience discovery, channel strategy, paying-demand and non-English market research with sourced decision reports, campaigns, collateral, monitoring, reception and experiment decisions, and game-launch planning with readiness gates and weekly maker-hours checks, with decisions, next steps and collateral picks tracked in the ledger and the desk. Ten skills, a portable evidence ledger, a dependency-free Node CLI and a local campaign desk.",
-      "version": "0.11.0",
+      "version": "0.11.1",
       "author": {
         "name": "ehartye"
       },
