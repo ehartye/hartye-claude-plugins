@@ -221,7 +221,7 @@
         "url": "https://github.com/ehartye/agent-tests.git"
       },
       "description": "Test-efficiency toolkit for coding agents - structure tests by project phase and risk, audit architecture and suite costs, and inspect TypeScript and JavaScript tests (Vitest, Jest or node:test). Includes conservative subject attribution and optional Node timing evidence; verdicts remain advisory.",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "author": {
         "name": "ehartye"
       },
