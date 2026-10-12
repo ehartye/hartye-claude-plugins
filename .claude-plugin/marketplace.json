@@ -213,6 +213,20 @@
       },
       "repository": "https://github.com/ehartye/book-nom",
       "license": "MIT"
+    },
+    {
+      "name": "agent-tests",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ehartye/agent-tests.git"
+      },
+      "description": "Test-efficiency toolkit for coding agents - structure tests by project phase and risk, and audit a suite for redundant coverage, compat and fallback shim tests, worktree-hostile tests, unwired tests and tests that run too often. Evidence from a Node CLI, verdicts from the agent; three skills for TypeScript and JavaScript projects (vitest or jest)",
+      "version": "0.1.0",
+      "author": {
+        "name": "ehartye"
+      },
+      "repository": "https://github.com/ehartye/agent-tests",
+      "license": "MIT"
     }
   ]
 }
