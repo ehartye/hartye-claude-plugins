@@ -46,18 +46,20 @@ analytics, sprite and 3D model authoring, web-app video production, procedural g
 | [academia-fetch](https://github.com/ehartye/academia-fetch) | Find papers worth reading via OpenAlex, then retrieve them from academia.edu with your own subscription and stage them for wiki-master ingest - human-paced rather than a crawler, with an enforced per-run delay and ceiling, and an open-access short-circuit that skips the subscription when a paper is legitimately free elsewhere |
 | [hartye-skills](https://github.com/ehartye/hartye-skills) | General-purpose utility skills that are useful across unrelated projects but too small to justify a plugin each - beautiful, for distinctive frontend design that avoids templated AI aesthetics, and ship-it, which collapses commit, branch, push, PR and squash-merge into one step |
 | [agent-tests](https://github.com/ehartye/agent-tests) | Test-efficiency toolkit for coding agents - structure tests by project phase and risk, and audit a suite for redundant coverage, compat and fallback shim tests, worktree-hostile tests, unwired tests and tests that run too often. Evidence from a Node CLI, verdicts from the agent; three skills for TypeScript and JavaScript projects (vitest or jest) |
-| [agent-workflow](https://github.com/ehartye/agent-workflow) | Codex workflow authoring and execution with durable JS orchestration, parallel agents, item-local pipelines, saved workflows, replay, explicit controls and a local dashboard. Three skills and six recipes; Windows verified. |
+| [agent-workflow](https://github.com/ehartye/agent-workflow) | Codex workflow authoring and execution with durable JS orchestration, parallel agents, item-local pipelines, reviewed artifact handoffs, immutable capture policy and an authenticated session dashboard. Four skills and seven recipes; Windows verified. |
 
 ### Agent Workflow in Codex
 
-`agent-workflow` 0.2.1 is a Codex plugin using managed ChatGPT subscription authentication, without a custom MCP server or API-key billing fallback. Add or refresh this marketplace in Codex's plugin browser and install `agent-workflow@hartye-plugins`, or use the CLI:
+`agent-workflow` 0.3.0 is a Codex plugin using managed ChatGPT subscription authentication, without a custom MCP server or API-key billing fallback. Add or refresh this marketplace in Codex's plugin browser and install `agent-workflow@hartye-plugins`, or use the CLI:
 
 ```sh
 codex plugin marketplace add ehartye/hartye-claude-plugins
 codex plugin add agent-workflow@hartye-plugins
 ```
 
-After installation, run `$agent-workflow:workflow-setup` with Node 24+ available. Setup installs fingerprinted production dependencies outside the plugin cache. CLI and hooks share AGENT_WORKFLOW_DATA_DIR or the platform default; prior runtime directories and saved data are preserved. Installation does not enable optional hooks automatically. See the [v0.2.1 release](https://github.com/ehartye/agent-workflow/releases/tag/v0.2.1) and [setup guide](https://github.com/ehartye/agent-workflow#install-and-start). The entry pins that release commit; Claude Code runtime compatibility is not claimed.
+After installation, run `$agent-workflow:workflow-setup` with Node 24+ available. Setup installs fingerprinted production dependencies outside the plugin cache. CLI and hooks share AGENT_WORKFLOW_DATA_DIR or the platform default; prior runtime directories and saved data are preserved. Installation does not enable optional hooks automatically. See the [v0.3.0 release](https://github.com/ehartye/agent-workflow/releases/tag/v0.3.0) and [setup guide](https://github.com/ehartye/agent-workflow#install-and-start). The entry pins that release commit; Claude Code runtime compatibility is not claimed.
+
+The session dashboard stays available until explicitly closed and separates phase membership, execution dependencies and task acceptance. An immutable capture policy can exclude approved generated directories while retaining reviewable metadata. Reversible hide/archive preserves outcomes; separate reviewed prune plans retire only eligible payloads while retaining audit and recovery evidence. Workflow authoring guides decomposition, worker prerequisites and explicit artifact handoffs; dependencies do not transfer predecessor edits automatically.
 
 ### Agent Sprites setup and upgrades
 
