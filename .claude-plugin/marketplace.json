@@ -233,11 +233,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-workflow.git",
-        "ref": "v0.1.1",
-        "sha": "555736320e252b8690834eeb546e7c3e10249e47"
+        "ref": "v0.2.0",
+        "sha": "c9fe587b242cef1f56ba2c3156d7831d85ff7e8a"
       },
-      "description": "Codex workflow authoring and execution: durable JavaScript orchestration, parallel agents, item-local pipelines, saved workflows, ordered replay, explicit controls and a bounded navy/amber monitor. Full retained evidence, visible tool failures and deliberate approval inspection. Three skills and six recipes; Node 24+ with managed runtime setup. Windows verified; native host UI and shared hard token budgets remain separate.",
-      "version": "0.1.1",
+      "description": "Subscription-backed Codex workflows with native workers, validated results, live activity, individual controls, isolated writable workspaces and reviewable diffs. Authenticated graph monitor with dependencies, progress and light/dark themes. Saved workflows and reusable commands; three skills, six recipes, Node 24+. No custom MCP or API-key fallback. Windows verified; SSH and broader host parity remain follow-up work.",
+      "version": "0.2.0",
       "author": {
         "name": "ehartye"
       },
