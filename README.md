@@ -50,14 +50,14 @@ analytics, sprite and 3D model authoring, web-app video production, procedural g
 
 ### Agent Workflow in Codex
 
-Agent Workflow 0.1.0 is a Codex plugin. Add or refresh this marketplace in Codex's plugin browser and install `agent-workflow@hartye-plugins`, or use the CLI:
+Agent Workflow 0.1.1 is a Codex plugin. Add or refresh this marketplace in Codex's plugin browser and install `agent-workflow@hartye-plugins`, or use the CLI:
 
 ```sh
 codex plugin marketplace add ehartye/hartye-claude-plugins
 codex plugin add agent-workflow@hartye-plugins
 ```
 
-After installation, run `$agent-workflow:workflow-setup` with Node 24+ available. Setup uses the exact host-provided data directory and installs production dependencies outside the plugin cache. Installation does not enable optional hooks automatically. See the [v0.1.0 release](https://github.com/ehartye/agent-workflow/releases/tag/v0.1.0) and [setup guide](https://github.com/ehartye/agent-workflow#install-and-set-up). The entry pins that release commit; Claude Code runtime compatibility is not claimed.
+After installation, run `$agent-workflow:workflow-setup` with Node 24+ available. Setup uses the exact host-provided data directory and installs production dependencies outside the plugin cache. Installation does not enable optional hooks automatically. See the [v0.1.1 release](https://github.com/ehartye/agent-workflow/releases/tag/v0.1.1) and [setup guide](https://github.com/ehartye/agent-workflow#install-and-set-up). The entry pins that release commit; Claude Code runtime compatibility is not claimed.
 
 ### Agent Sprites setup and upgrades
 
