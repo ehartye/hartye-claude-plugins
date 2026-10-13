@@ -227,6 +227,22 @@
       },
       "repository": "https://github.com/ehartye/agent-tests",
       "license": "MIT"
+    },
+    {
+      "name": "agent-workflow",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ehartye/agent-workflow.git",
+        "ref": "v0.1.0",
+        "sha": "3e86317c1ed9adc8b89cb692c796e9b07b2b5797"
+      },
+      "description": "Codex workflow authoring and execution: durable JavaScript orchestration, parallel agents, item-local pipelines, saved workflows, ordered replay, explicit controls and an authenticated local dashboard. Three skills and six recipes; Node 24+ with managed runtime setup. Windows verified; native host UI and shared hard token budgets remain separate.",
+      "version": "0.1.0",
+      "author": {
+        "name": "ehartye"
+      },
+      "repository": "https://github.com/ehartye/agent-workflow",
+      "license": "MIT"
     }
   ]
 }
