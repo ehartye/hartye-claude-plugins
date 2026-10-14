@@ -52,14 +52,16 @@ analytics, sprite, layered vector and 3D model authoring, web-app video producti
 
 ### Agent Workflow in Codex
 
-`agent-workflow` 0.3.2 is a Codex plugin using managed ChatGPT subscription authentication, without a custom MCP server or API-key billing fallback. Add or refresh this marketplace in Codex's plugin browser and install `agent-workflow@hartye-plugins`, or use the CLI:
+`agent-workflow` 0.3.3 is a Codex plugin using managed ChatGPT subscription authentication, without a custom MCP server or API-key billing fallback. Add or refresh this marketplace in Codex's plugin browser and install `agent-workflow@hartye-plugins`, or use the CLI:
 
 ```sh
 codex plugin marketplace add ehartye/hartye-claude-plugins
 codex plugin add agent-workflow@hartye-plugins
 ```
 
-After installation, run `$agent-workflow:workflow-setup` with Node 24+ available. Setup installs fingerprinted production dependencies outside the plugin cache. CLI and hooks share AGENT_WORKFLOW_DATA_DIR or the platform default; prior runtime directories and saved data are preserved. Installation does not enable optional hooks automatically. See the [v0.3.2 release](https://github.com/ehartye/agent-workflow/releases/tag/v0.3.2) and [setup guide](https://github.com/ehartye/agent-workflow#install-and-start). Windows MXC Session 0 compatibility is an explicitly authorized launch option; setup explains its shared UI tradeoff and verifies the actual context. The entry pins that release commit; Claude Code runtime compatibility is not claimed.
+After installation, run `$agent-workflow:workflow-setup` with Node 24+ available. Setup installs fingerprinted production dependencies outside the plugin cache. CLI and hooks share AGENT_WORKFLOW_DATA_DIR or the platform default; prior runtime directories and saved data are preserved. Installation does not enable optional hooks automatically. See the [v0.3.3 release](https://github.com/ehartye/agent-workflow/releases/tag/v0.3.3) and [setup guide](https://github.com/ehartye/agent-workflow#install-and-start). Windows MXC Session 0 compatibility is an explicitly authorized launch option; setup explains its shared UI tradeoff and verifies the actual context. The entry pins that release commit; Claude Code runtime compatibility is not claimed.
+
+New workflows default to the originating parent's explicitly recorded execution access, with restricted execution available by choice. Original native plugin and skill roots are discovered without copying skill bodies; host-only connectors are not cloned. Selected skills require successful native main-resource reads and source verification, and changed parent catalogs block resume before completed work can repeat. Full-access worktrees organize ownership and artifact review; they do not enforce filesystem isolation. Windows uses a verified signed process host, and bounded workspace captures support up to 512 MiB.
 
 The session dashboard stays available until explicitly closed and separates phase membership, execution dependencies and task acceptance. An immutable capture policy can exclude approved generated directories while retaining reviewable metadata. Reversible hide/archive preserves outcomes; separate reviewed prune plans retire only eligible payloads while retaining audit and recovery evidence. Workflow authoring guides decomposition, worker prerequisites and explicit artifact handoffs; dependencies do not transfer predecessor edits automatically.
 
