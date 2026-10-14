@@ -236,7 +236,7 @@
         "ref": "v0.3.1",
         "sha": "dfc4294fa95b1df47eebbe95facde2f2a93f4ce5"
       },
-      "description": "Subscription-backed Codex workflows with genuine native worker skill selection, verified tool readiness, immutable capabilities and reviewed artifact handoffs. Durable terminal notifications and a named cursor-based observer preserve failures across reconnects. Authenticated session dashboard; four skills, seven recipes, Node24+. No custom MCP or API-key fallback. Windows verified; skill roots are selected before worker startup.",
+      "description": "Subscription-backed Codex workflows with genuine native worker skill selection, verified tool readiness, immutable capabilities and reviewed artifact handoffs. Durable terminal notifications and a named cursor-based observer preserve failures across reconnects. Authenticated session dashboard; four skills, seven recipes, Node 24+. No custom MCP or API-key fallback. Windows verified; skill roots are selected before worker startup.",
       "version": "0.3.1",
       "author": {
         "name": "ehartye"
