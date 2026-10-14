@@ -33,7 +33,7 @@ analytics, sprite, layered vector and 3D model authoring, web-app video producti
 | Plugin | Description |
 |--------|-------------|
 | [agent-sprites](https://github.com/ehartye/agent-sprites) | Pixel-art sprite authoring for 2D games with parametric shapes, lighting, animation groups, PNG/Aseprite atlas export, and a live collaborative web UI |
-| [agent-draw](https://github.com/ehartye/agent-draw) | Vector-first 2D authoring from validated JSON projects: editable SVG with named Inkscape layers, transparent PNG and PDF exports, and build receipts; three skills and a dependency-free managed Node runtime |
+| [agent-draw](https://github.com/ehartye/agent-draw) | Vector-first 2D authoring: editable layered SVG, PNG/PDF, gradients and cutouts, reusable named parts with pivot/keyframe animation, and Phaser atlases with stable anchors; three skills and a dependency-free managed Node runtime |
 | [agent-meshes](https://github.com/ehartye/agent-meshes) | Named-part 3D authoring for coding agents - rigged, animated GLB models from JSON operations, creature recipes with real gaits, isolated verified builds with renders and offline previews, an embeddable three.js viewer, and an optional Blender refine stage |
 | [agent-vids](https://github.com/ehartye/agent-vids) | Marketing and training videos of web apps for coding agents - analyse the app, recommend a brief, storyboard it, and render narrated, captioned video checked against 60 evidence-backed craft rules, with reusable channels and style flavors, and a LAN review page where you pick and order exhibits and finalize the stitched video |
 | [agent-beeps](https://github.com/ehartye/agent-beeps) | Procedural game and UI sounds for coding agents - Web Audio patches rendered in Chromium, loudness-matched, measured and checked against cited craft rules, generated as diverse sets from 18 archetypes, and auditioned by you on a LAN listening page (lineup, duels, refine by ear, ship) that trains a taste model predicting your next pick |
@@ -96,8 +96,14 @@ macOS and Windows support is not yet established.
 Use `draw-authoring` to create and validate JSON projects, then `draw-export` to build editable
 SVG with named Inkscape layers, transparent PNG, PDF, and a build receipt. Keep the project JSON
 with the outputs for repeatable builds. SVG retains live editable text; PDF text is outlined.
-Manual SVG edits do not round-trip into the JSON source. See the
-[Agent Draw installation and workflow guide](https://github.com/ehartye/agent-draw#quick-start).
+Manual SVG edits do not round-trip into the JSON source.
+
+Version 0.3.1 adds gradients and cutouts, reusable named parts with pivots and keyframes,
+and short animation exports as editable SVG/PNG frames with contact sheets. Optional GIF/MP4
+encoding and Phaser JSON hash atlas packing require an existing FFmpeg installation; setup
+does not install it. Atlases pack existing fixed-canvas PNG frames, preserving anchors, named
+clips, and transparent gutters. Packing does not generate missing directional poses. See the
+[Agent Draw installation and workflow guide](https://github.com/ehartye/agent-draw/blob/main/README.md#quick-start).
 
 ### Agent Meshes setup
 
