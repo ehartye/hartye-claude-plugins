@@ -1,7 +1,7 @@
 # Hartye Claude Plugins
 
 A collection of Claude Code plugins for agentic development workflows, session
-analytics, sprite and 3D model authoring, web-app video production, procedural game audio, writing craft, evidence-led project marketing, document publishing, knowledge management, and Salesforce automation.
+analytics, sprite, layered vector and 3D model authoring, web-app video production, procedural game audio, writing craft, evidence-led project marketing, document publishing, knowledge management, and Salesforce automation.
 
 ## Installation
 
@@ -11,6 +11,7 @@ analytics, sprite and 3D model authoring, web-app video production, procedural g
 
 # Install plugins
 /plugin install agent-sprites@hartye-plugins
+/plugin install agent-draw@hartye-plugins
 /plugin install agent-meshes@hartye-plugins
 /plugin install agent-vids@hartye-plugins
 /plugin install agent-beeps@hartye-plugins
@@ -32,6 +33,7 @@ analytics, sprite and 3D model authoring, web-app video production, procedural g
 | Plugin | Description |
 |--------|-------------|
 | [agent-sprites](https://github.com/ehartye/agent-sprites) | Pixel-art sprite authoring for 2D games with parametric shapes, lighting, animation groups, PNG/Aseprite atlas export, and a live collaborative web UI |
+| [agent-draw](https://github.com/ehartye/agent-draw) | Vector-first 2D authoring from validated JSON projects: editable SVG with named Inkscape layers, transparent PNG and PDF exports, and build receipts; three skills and a dependency-free managed Node runtime |
 | [agent-meshes](https://github.com/ehartye/agent-meshes) | Named-part 3D authoring for coding agents - rigged, animated GLB models from JSON operations, creature recipes with real gaits, isolated verified builds with renders and offline previews, an embeddable three.js viewer, and an optional Blender refine stage |
 | [agent-vids](https://github.com/ehartye/agent-vids) | Marketing and training videos of web apps for coding agents - analyse the app, recommend a brief, storyboard it, and render narrated, captioned video checked against 60 evidence-backed craft rules, with reusable channels and style flavors, and a LAN review page where you pick and order exhibits and finalize the stitched video |
 | [agent-beeps](https://github.com/ehartye/agent-beeps) | Procedural game and UI sounds for coding agents - Web Audio patches rendered in Chromium, loudness-matched, measured and checked against cited craft rules, generated as diverse sets from 18 archetypes, and auditioned by you on a LAN listening page (lineup, duels, refine by ear, ship) that trains a taste model predicting your next pick |
@@ -73,6 +75,27 @@ the old plugin to avoid duplicate commands. Existing saved sessions remain compa
 Version 0.15.3 includes eleven native skills, offline atlas verification, isolated
 project builds with playable previews, and a copyable four-beat character walk
 recipe. See the [build workflow](https://github.com/ehartye/agent-sprites#build-a-repeatable-asset-project).
+
+### Agent Draw setup
+
+After installing or updating `agent-draw`, run `/agent-draw:draw-setup` in Claude Code
+or `$agent-draw:draw-setup` in Codex. Codex users can add this marketplace and install it with:
+
+```sh
+codex plugin marketplace add ehartye/hartye-claude-plugins
+codex plugin add agent-draw@hartye-plugins
+```
+
+Node.js 22+ and an existing Inkscape 1.2+ installation are required. Setup copies and checks a
+fingerprint-matched runtime outside the plugin cache; it does not install Inkscape or download
+npm dependencies. No browser or MCP server is required. Linux is the initial verified platform;
+macOS and Windows support is not yet established.
+
+Use `draw-authoring` to create and validate JSON projects, then `draw-export` to build editable
+SVG with named Inkscape layers, transparent PNG, PDF, and a build receipt. Keep the project JSON
+with the outputs for repeatable builds. SVG retains live editable text; PDF text is outlined.
+Manual SVG edits do not round-trip into the JSON source. See the
+[Agent Draw installation and workflow guide](https://github.com/ehartye/agent-draw#quick-start).
 
 ### Agent Meshes setup
 
