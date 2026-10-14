@@ -233,11 +233,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-workflow.git",
-        "ref": "v0.3.0",
-        "sha": "17aae784e87c5d14a8db342cacec19f78d2a8713"
+        "ref": "v0.3.1",
+        "sha": "dfc4294fa95b1df47eebbe95facde2f2a93f4ce5"
       },
-      "description": "Subscription-backed Codex workflows with native workers, reviewed artifact handoffs, immutable capture policy and an authenticated session dashboard. Reversible hide/archive preserves outcomes; separate reviewed prune plans retain audit and recovery evidence. Four skills, seven recipes, Node 24+. No custom MCP or API-key fallback. Windows verified; SSH and broader host parity remain follow-up work.",
-      "version": "0.3.0",
+      "description": "Subscription-backed Codex workflows with genuine native worker skill selection, verified tool readiness, immutable capabilities and reviewed artifact handoffs. Durable terminal notifications and a named cursor-based observer preserve failures across reconnects. Authenticated session dashboard; four skills, seven recipes, Node 24+. No custom MCP or API-key fallback. Windows verified; skill roots are selected before worker startup.",
+      "version": "0.3.1",
       "author": {
         "name": "ehartye"
       },
