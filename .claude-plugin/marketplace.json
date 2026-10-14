@@ -54,7 +54,7 @@
         "url": "https://github.com/ehartye/agent-beeps.git"
       },
       "description": "Procedural sound and music composer for coding agents: game SFX, UI sounds and loopable game music as Web Audio patches and songs, rendered in Chromium, measured (loudness, sharpness, roughness, pitch, loudness arc), linted against cited craft rules, auditioned by the owner on a LAN page, and ranked by a taste model learned from every choice.",
-      "version": "0.12.0",
+      "version": "0.12.1",
       "author": {
         "name": "ehartye"
       },
@@ -220,8 +220,8 @@
         "source": "url",
         "url": "https://github.com/ehartye/agent-tests.git"
       },
-      "description": "Test-efficiency toolkit for coding agents: structure tests by project phase and risk, audit a suite for redundant, shim, worktree-hostile, unwired and over-frequent tests, and remediate with evidence.",
-      "version": "0.4.0",
+      "description": "Test-efficiency toolkit for coding agents: structure tests by project phase and risk, audit a suite for redundant, shim, worktree-hostile, unwired, over-frequent and costly native UI tests, and remediate with evidence.",
+      "version": "0.4.1",
       "author": {
         "name": "ehartye"
       },
