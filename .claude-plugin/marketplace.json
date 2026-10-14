@@ -26,8 +26,8 @@
         "url": "https://github.com/ehartye/agent-draw.git",
         "ref": "main"
       },
-      "description": "Vector-first 2D authoring for coding agents: validated JSON projects become editable SVG with named Inkscape layers, transparent PNG and PDF exports, and build receipts. Three skills: draw-setup, draw-authoring and draw-export. Managed runtime, Node.js 22+ and existing Inkscape 1.2+; no browser or npm dependencies. Linux verified.",
-      "version": "0.1.0",
+      "description": "Vector-first 2D authoring for coding agents: validated JSON projects become editable layered SVG, transparent PNG and PDF, with gradients, cutouts, reusable named parts, pivot/keyframe animation, and build receipts. Phaser JSON hash atlases preserve fixed-canvas anchors and named clips. Three skills: draw-setup, draw-authoring and draw-export. Node.js 22+ and existing Inkscape 1.2+; optional GIF/MP4 and atlas exports require existing FFmpeg. No browser or npm dependencies. Linux verified.",
+      "version": "0.3.1",
       "author": {
         "name": "ehartye"
       },
