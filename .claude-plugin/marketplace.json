@@ -248,11 +248,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-workflow.git",
-        "ref": "v0.4.2",
-        "sha": "d5ec7eb64a5b09ad4ad26da2a52890a4e568f75f"
+        "ref": "v0.4.3",
+        "sha": "138a724203c25596c88cccac7a68d60d18eed2a6"
       },
-      "description": "Subscription-backed Codex workflows with native plugin/skill access and verified skill selection. New workers have unbounded wall time by default, revisioned live deadline controls and idempotent independent task admission into active runs. Original inputs, capability ceilings and shared attempt budgets remain enforced. Durable sanitized command facts and consumer observation receipts preserve outcomes and missing coverage. Signed Windows process host, reviewed worktree artifacts and authenticated map/inspector dashboard with direct failure/log menus, resizable panes and phone layouts. Complete-artifact authoring/recovery guidance. Four skills, seven recipes, Node 24+. No custom MCP or API-key fallback. Opt-in Windows OpenSSH Session 0 compatibility retains its shared UI disclosure.",
-      "version": "0.4.2",
+      "description": "Subscription-backed Codex workflows with native plugin/skill access and verified skill selection. New runs retain verified capability source packages through host cache changes, preserving genuine native activation and saved source identities. Workers have unbounded wall time by default, revisioned live deadline controls and idempotent independent task admission into active runs. Original inputs, capability ceilings and shared attempt budgets remain enforced. Durable command and observer evidence, signed Windows process host, reviewed worktree artifacts and authenticated map/inspector dashboard. Four skills, seven recipes, Node 24+. No custom MCP or API-key fallback. Opt-in Windows OpenSSH Session 0 compatibility retains its shared UI disclosure.",
+      "version": "0.4.3",
       "author": {
         "name": "ehartye"
       },
