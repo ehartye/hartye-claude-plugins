@@ -248,11 +248,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-workflow.git",
-        "ref": "v0.4.0",
-        "sha": "f1fd79d4fc68cbb083cae4fac98d1dc0eb217677"
+        "ref": "v0.4.1",
+        "sha": "95c8e037cac498cebfcab15da29c650b74642ff8"
       },
       "description": "Subscription-backed Codex workflows with native plugin/skill access and verified skill selection. New workers have unbounded wall time by default, revisioned live deadline controls and idempotent independent task admission into active runs. Original inputs, capability ceilings and shared attempt budgets remain enforced. Durable sanitized command facts and consumer observation receipts preserve outcomes and missing coverage. Signed Windows process host, reviewed worktree artifacts and authenticated map/inspector dashboard with direct failure/log menus, resizable panes and phone layouts. Complete-artifact authoring/recovery guidance. Four skills, seven recipes, Node 24+. No custom MCP or API-key fallback. Opt-in Windows OpenSSH Session 0 compatibility retains its shared UI disclosure.",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "author": {
         "name": "ehartye"
       },
