@@ -40,8 +40,8 @@
         "source": "url",
         "url": "https://github.com/ehartye/agent-meshes.git"
       },
-      "description": "Named-part 3D authoring for coding agents - rigged, animated GLB models, creature recipes and mechanisms, verified builds with renders and offline previews, an embeddable three.js viewer, and optional Blender refinement. Includes human and alien reference mannequins with provenance, an offline motion comparison demo, character modeling craft and reusable consumer patterns. Six skills: mesh-setup, mesh-authoring, mesh-rigging, mesh-build, mesh-believable, mesh-quality-review",
-      "version": "0.17.0",
+      "description": "Named-part 3D authoring for coding agents - rigged, animated GLB models, verified builds and offline previews, an embeddable three.js viewer, packed image PBR helpers and optional Blender refinement. Includes human/alien mannequins, nine organized rig banks with 214 selectable clips, Toy Maker CPU adapters and a comparison demo, sampled motion audits, deep character craft and separate Blender CLI/Python API references. Six skills: mesh-setup, mesh-authoring, mesh-rigging, mesh-build, mesh-believable, mesh-quality-review",
+      "version": "0.18.0",
       "author": {
         "name": "ehartye"
       },
