@@ -26,8 +26,8 @@
         "url": "https://github.com/ehartye/agent-draw.git",
         "ref": "main"
       },
-      "description": "Vector-first 2D authoring for coding agents: editable layered SVG, transparent PNG and PDF, gradients, cutouts, named-part keyframe animation, and independently drawn pose sequences with contact sheets and receipts. Craft guidance covers humanoid proportions and joints, calf-aligned boots, cape/neckpiece attachment, per-frame visual review, action staging, textures, color and world scale. Phaser JSON hash atlases preserve fixed-canvas anchors and named clips. Three skills: draw-setup, draw-authoring and draw-export. Node.js 22+ and existing Inkscape 1.2+; optional GIF/MP4 and atlas exports require existing FFmpeg. No browser or npm dependencies. Linux verified.",
-      "version": "0.4.1",
+      "description": "Vector-first 2D authoring: editable SVG, transparent PNG/PDF, drawn pose sequences, named-part animation and game atlases. Native bitmap lettering exports fixed-cell printable-ASCII BMFont assets with hash receipts. Includes 768 human/compact-RPG starter drawings in elevated and overhead facings, guide identities and walk/run galleries. Craft guidance covers connected anatomy, boot clearance, selective ink, playable surfaces and shared character/environment perspective. Three skills: draw-setup, draw-authoring, draw-export. Node.js 22+ and existing Inkscape 1.2+; optional encoding/atlas exports need existing FFmpeg. No npm dependencies; Linux CI plus scoped Windows native export checks.",
+      "version": "0.5.0",
       "author": {
         "name": "ehartye"
       },
