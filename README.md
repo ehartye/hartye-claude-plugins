@@ -91,15 +91,21 @@ codex plugin add agent-draw@hartye-plugins
 Node.js 22+ and an existing Inkscape 1.2+ installation are required. Setup copies and checks a
 fingerprint-matched runtime outside the plugin cache; it does not install Inkscape or download
 npm dependencies. No browser or MCP server is required. Linux is the initial verified platform;
-macOS and Windows support is not yet established.
+native Windows exports have been checked with an explicit Inkscape executable. Automatic Windows discovery and macOS support remain unverified.
 
 Use `draw-authoring` to create and validate JSON projects, then `draw-export` to build editable
 SVG with named Inkscape layers, transparent PNG, PDF, and a build receipt. Keep the project JSON
 with the outputs for repeatable builds. SVG retains live editable text; PDF text is outlined.
 Manual SVG edits do not round-trip into the JSON source.
 
-Version 0.4.0 adds independently drawn pose sequences: an ordered manifest of complete static
-JSON drawings becomes editable SVG/PNG frames and an all-frame contact sheet, preserving source
+Version 0.5.0 adds native bitmap lettering (`font-atlas`) with fixed-cell BMFont XML, editable
+glyph sheets and hash receipts. It also bundles 768 human/compact-RPG starters in elevated and
+overhead facings, construction guides and walk/run galleries. New craft guidance covers
+view-specific anatomy, boot clearance, selective ink and shared character/path perspective.
+Fixed cells do not supply measured bearings or kerning.
+
+Independently drawn pose sequences take an ordered manifest of complete static
+JSON drawings and export editable SVG/PNG frames and an all-frame contact sheet, preserving source
 projects and receipts. Craft guidance covers anatomy, action staging, textures, color families
 and person/building scale. Named-part pivot/keyframe animation remains available for reusable
 parts. Optional GIF/MP4 encoding and Phaser JSON hash atlas packing require an existing FFmpeg
