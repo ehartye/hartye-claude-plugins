@@ -83,7 +83,7 @@
         "url": "https://github.com/ehartye/agent-prose.git"
       },
       "description": "Writing-craft toolkit for coding agents: poems and song lyrics, game dialogue and barks, instructions and technical docs, academic and professional prose, screen and stage scripts, YouTube scripts, speeches, professional presentations and webinars. Seventeen skills include slide briefs, speaker notes and rehearsal, webinar run sheets, moderator cues, interaction and demo recovery, plus illustrated storyboards. Native drafts, cited craft checks, voice bibles, variants, owner reviews and learned taste; PDF/HTML reading copies and guarded dialogue source round trips.",
-      "version": "0.9.0",
+      "version": "0.9.1",
       "author": {
         "name": "ehartye"
       },
@@ -96,8 +96,8 @@
         "source": "url",
         "url": "https://github.com/ehartye/agent-engine.git"
       },
-      "description": "Skills for engine selection, Phaser architecture and verification, custom shaders, and importing agent-sprites, agent-meshes and agent-beeps assets into game engines. Includes pixel UI, accessible controls, native text entry and WebGL2/ES3 shader guidance for Phaser.",
-      "version": "0.11.15",
+      "description": "Skills for engine selection, Phaser architecture and verification, custom shaders, and importing agent-sprites, agent-meshes and agent-beeps assets into game engines. Includes pixel UI, accessible controls, native text entry and WebGL2/ES3 shader guidance for Phaser, verified native Unreal game build and capture workflows, and genre-specific visual polish guidance.",
+      "version": "0.11.17",
       "author": {
         "name": "ehartye"
       },
