@@ -39,11 +39,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-meshes.git",
-        "ref": "v0.21.0",
-        "sha": "a22bcc99bf138856f4766f6f9eb937f43b3f5766"
+        "ref": "v0.22.0",
+        "sha": "f44d9b4eb2a1f933160998ad2155c0e704399b42"
       },
-      "description": "Named-part 3D authoring for coding agents - rigged, animated GLB models, verified builds and offline previews, a three.js viewer and optional Blender refinement. Native Blender builds support opt-in unchanged-output reuse, declared inputs and toolchain pins. Face helpers compose into project-owned designs. Includes researched mesh-tool selection for Blender Python, Unreal procedural meshes, R3F, Godot, Unity and code-CAD, existing-project asset contracts, organized rig banks and character craft references. Seven skills: mesh-tool-selection, mesh-setup, mesh-authoring, mesh-rigging, mesh-build, mesh-believable, mesh-quality-review. Native inputs can declare bounded directory trees with patterns and digest pins; matching additions/removals invalidate Blender reuse.",
-      "version": "0.21.0",
+      "description": "Named-part 3D authoring for coding agents - rigged, animated GLB models, verified builds and offline previews, a three.js viewer and optional Blender refinement. Native Blender builds support opt-in unchanged-output reuse, declared inputs and toolchain pins. Face helpers compose into project-owned designs. Includes researched mesh-tool selection for Blender Python, Unreal procedural meshes, R3F, Godot, Unity and code-CAD, existing-project asset contracts, organized rig banks and character craft references. Seven skills: mesh-tool-selection, mesh-setup, mesh-authoring, mesh-rigging, mesh-build, mesh-believable, mesh-quality-review. Native inputs can declare bounded directory trees with patterns and digest pins; matching additions/removals invalidate Blender reuse; scoped Python read diagnostics with strict opt-in and safe native reuse.",
+      "version": "0.22.0",
       "author": {
         "name": "ehartye"
       },
