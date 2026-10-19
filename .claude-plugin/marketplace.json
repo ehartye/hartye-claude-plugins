@@ -39,11 +39,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-meshes.git",
-        "ref": "v0.23.0",
-        "sha": "ef8cf609762cf357cc328730d0f21f0998b86d10"
+        "ref": "v0.24.0",
+        "sha": "c1f7e26bf9c59dfa723ca498391cda1433047929"
       },
-      "description": "Named-part 3D authoring for coding agents - rigged, animated GLB models, verified builds and offline previews, a three.js viewer and optional Blender refinement. Native Blender builds support opt-in unchanged-output reuse, declared inputs and toolchain pins. Face helpers compose into project-owned designs. Includes researched mesh-tool selection for Blender Python, Unreal procedural meshes, R3F, Godot, Unity and code-CAD, existing-project asset contracts, organized rig banks and character craft references. Seven skills: mesh-tool-selection, mesh-setup, mesh-authoring, mesh-rigging, mesh-build, mesh-believable, mesh-quality-review. Native inputs can declare bounded directory trees with patterns and digest pins; matching additions/removals invalidate Blender reuse; scoped Python read diagnostics with strict opt-in and safe native reuse; static-prop Unreal inspection, authored vertex-colour controls and shared batch builds.",
-      "version": "0.23.0",
+      "description": "Named-part 3D authoring for coding agents: rigged, animated GLBs, verified builds, offline previews and optional Blender refinement. Native builds support declared files/trees and environments, project roots, toolchain pins, shared defaults, batch hashing and output reuse. Static-prop Unreal checks report bounds, triangle counts and import settings, with built-in signed-axis calibration. Includes researched mesh-tool selection for Blender Python, Unreal procedural meshes, R3F, Godot, Unity and code-CAD; project-owned face recipes, rig banks and character craft references. Seven skills cover selection, setup, authoring, rigging, building, believable form and quality review.",
+      "version": "0.24.0",
       "author": {
         "name": "ehartye"
       },
