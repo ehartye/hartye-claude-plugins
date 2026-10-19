@@ -39,11 +39,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-meshes.git",
-        "ref": "v0.19.0",
-        "sha": "fc012bbc2d82b64636f23e645bd14067c4f51a29"
+        "ref": "v0.20.0",
+        "sha": "3d9030d6f6e7f34decaeb91fdc0aec563f2141fe"
       },
-      "description": "Named-part 3D authoring for coding agents - rigged, animated GLB models, verified builds and offline previews, a three.js viewer and optional Blender refinement. Includes a researched mesh-tool-selection guide for Blender Python, Unreal procedural meshes, R3F, Godot, Unity and code-CAD; existing-project asset contracts; organized rig banks and character craft references. Seven skills: mesh-tool-selection, mesh-setup, mesh-authoring, mesh-rigging, mesh-build, mesh-believable, mesh-quality-review.",
-      "version": "0.19.0",
+      "description": "Named-part 3D authoring for coding agents - rigged, animated GLB models, verified builds and offline previews, a three.js viewer and optional Blender refinement. Native Blender builds support opt-in unchanged-output reuse, declared inputs and toolchain pins. Face helpers compose into project-owned designs. Includes researched mesh-tool selection for Blender Python, Unreal procedural meshes, R3F, Godot, Unity and code-CAD, existing-project asset contracts, organized rig banks and character craft references. Seven skills: mesh-tool-selection, mesh-setup, mesh-authoring, mesh-rigging, mesh-build, mesh-believable, mesh-quality-review.",
+      "version": "0.20.0",
       "author": {
         "name": "ehartye"
       },
