@@ -100,8 +100,8 @@
         "ref": "v0.12.0",
         "sha": "964a657c3fd6f40eed21bf73a56fc253c5d46e89"
       },
-      "description": "Skills for game-engine selection and sprite, mesh and audio integration across Unity, Unreal, UEFN, Godot and web engines. Guarded Unreal project GLB imports can reuse unchanged delivered assets, with settings/tool identities, complete generated-file hashes, owner-edit conflicts and pending-operation evidence. Saved import, cook and runtime acceptance remain separate.",
-      "version": "0.12.0",
+      "description": "Skills for game-engine selection and sprite, mesh and audio integration across Unity, Unreal, UEFN, Godot and web engines. Guarded Unreal project GLB imports can reuse unchanged delivered assets, with settings/tool identities, complete generated-file hashes, owner-edit conflicts and pending-operation evidence, and can state a per-mesh import policy (Nanite, vertex colours, UVs, material, collision, kit naming) that is read back from the saved assets and fails the import on any mismatch. Saved import, cook and runtime acceptance remain separate.",
+      "version": "0.13.0",
       "author": {
         "name": "ehartye"
       },
