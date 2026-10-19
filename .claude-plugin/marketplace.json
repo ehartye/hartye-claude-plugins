@@ -39,11 +39,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-meshes.git",
-        "ref": "v0.24.0",
-        "sha": "c1f7e26bf9c59dfa723ca498391cda1433047929"
+        "ref": "v0.25.0",
+        "sha": "e46dcc7f0909639ded66b8031e0ce0f05420aa70"
       },
-      "description": "Named-part 3D authoring for coding agents: rigged, animated GLBs, verified builds, offline previews and optional Blender refinement. Native builds support declared files/trees and environments, project roots, toolchain pins, shared defaults, batch hashing and output reuse. Static-prop Unreal checks report bounds, triangle counts and import settings, with built-in signed-axis calibration. Includes researched mesh-tool selection for Blender Python, Unreal procedural meshes, R3F, Godot, Unity and code-CAD; project-owned face recipes, rig banks and character craft references. Seven skills cover selection, setup, authoring, rigging, building, believable form and quality review.",
-      "version": "0.24.0",
+      "description": "Named-part 3D authoring for coding agents: rigged, animated GLBs, verified builds and offline previews. Native Blender builds support declared files/trees, fixed environments, project roots, pins, shared defaults, batch hashing and bounded rollback reuse. Static-prop Unreal checks report geometry, collision and import settings, accept explicit import options and include signed-axis calibration. Mesh-from-arrays preserves UV and FLOAT_COLOR masks. Includes researched tool selection for Blender Python, Unreal procedural meshes, R3F, Godot, Unity and code-CAD, project-owned face recipes, rig banks and character craft. Seven skills cover selection, setup, authoring, rigging, building, believable form and quality review.",
+      "version": "0.25.0",
       "author": {
         "name": "ehartye"
       },
