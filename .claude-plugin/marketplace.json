@@ -39,11 +39,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-meshes.git",
-        "ref": "v0.20.0",
-        "sha": "3d9030d6f6e7f34decaeb91fdc0aec563f2141fe"
+        "ref": "v0.21.0",
+        "sha": "a22bcc99bf138856f4766f6f9eb937f43b3f5766"
       },
-      "description": "Named-part 3D authoring for coding agents - rigged, animated GLB models, verified builds and offline previews, a three.js viewer and optional Blender refinement. Native Blender builds support opt-in unchanged-output reuse, declared inputs and toolchain pins. Face helpers compose into project-owned designs. Includes researched mesh-tool selection for Blender Python, Unreal procedural meshes, R3F, Godot, Unity and code-CAD, existing-project asset contracts, organized rig banks and character craft references. Seven skills: mesh-tool-selection, mesh-setup, mesh-authoring, mesh-rigging, mesh-build, mesh-believable, mesh-quality-review.",
-      "version": "0.20.0",
+      "description": "Named-part 3D authoring for coding agents - rigged, animated GLB models, verified builds and offline previews, a three.js viewer and optional Blender refinement. Native Blender builds support opt-in unchanged-output reuse, declared inputs and toolchain pins. Face helpers compose into project-owned designs. Includes researched mesh-tool selection for Blender Python, Unreal procedural meshes, R3F, Godot, Unity and code-CAD, existing-project asset contracts, organized rig banks and character craft references. Seven skills: mesh-tool-selection, mesh-setup, mesh-authoring, mesh-rigging, mesh-build, mesh-believable, mesh-quality-review. Native inputs can declare bounded directory trees with patterns and digest pins; matching additions/removals invalidate Blender reuse.",
+      "version": "0.21.0",
       "author": {
         "name": "ehartye"
       },
@@ -96,10 +96,12 @@
       "name": "agent-engine",
       "source": {
         "source": "url",
-        "url": "https://github.com/ehartye/agent-engine.git"
+        "url": "https://github.com/ehartye/agent-engine.git",
+        "ref": "v0.12.0",
+        "sha": "964a657c3fd6f40eed21bf73a56fc253c5d46e89"
       },
-      "description": "Skills for engine selection, Phaser architecture and verification, custom shaders, and importing agent-sprites, agent-meshes and agent-beeps assets into game engines. Includes pixel UI, accessible controls, native text entry and WebGL2/ES3 shader guidance for Phaser, verified native Unreal game build and capture workflows, and genre-specific visual polish guidance.",
-      "version": "0.11.17",
+      "description": "Skills for game-engine selection and sprite, mesh and audio integration across Unity, Unreal, UEFN, Godot and web engines. Guarded Unreal project GLB imports can reuse unchanged delivered assets, with settings/tool identities, complete generated-file hashes, owner-edit conflicts and pending-operation evidence. Saved import, cook and runtime acceptance remain separate.",
+      "version": "0.12.0",
       "author": {
         "name": "ehartye"
       },
