@@ -85,11 +85,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-prose.git",
-        "ref": "v0.11.0",
-        "sha": "a7cdb726df985ba0b0bae71f3b4e21561498724b"
+        "ref": "v0.12.0",
+        "sha": "019a8ad1d4bf2f5577f3c2063b4e855f2600ae0a"
       },
-      "description": "Writing-craft toolkit for coding agents: poems and song lyrics, game dialogue and barks, instructions and docs, textbook teaching and reader targeting, academic and professional prose, screen and stage scripts, YouTube scripts, speeches, professional presentations and webinars. Twenty-one skills include prose-annotate and prose-annotation-review for source-bound highlights, persistent vocabulary, explanations, links, a local review workbench and portable publication data for Markdown, static HTML and structured content. Native drafts are measured and linted against cited craft rules. Illustrated storyboards retain editable panels, choices and character quest tracks. Variant sets, owner reviews and a taste model support rewrites; prose audit reports style hallmarks, never authorship. Slide-file creation uses the available presentation tool.",
-      "version": "0.11.0",
+      "description": "Writing-craft toolkit for coding agents: poems and song lyrics, game dialogue and barks, instructions and docs, textbook teaching, reader targeting and passage suitability assessment, academic and professional prose, screen and stage scripts, YouTube scripts, speeches, professional presentations and webinars. Twenty-one skills include prose-reading-level for evidence-linked rubric judgments and proposed changes, and prose-annotate and prose-annotation-review for source-bound highlights, vocabulary, explanations, links, a local review workbench and portable publication data for Markdown, static HTML and structured content. Native drafts are measured and linted against cited craft rules. Illustrated storyboards retain editable panels, choices and character quest tracks. Variant sets, owner reviews and a taste model support rewrites; prose audit reports style hallmarks, never authorship. Slide-file creation uses the available presentation tool.",
+      "version": "0.12.0",
       "author": {
         "name": "ehartye"
       },
