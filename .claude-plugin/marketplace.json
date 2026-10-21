@@ -97,11 +97,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-engine.git",
-        "ref": "v0.13.11",
-        "sha": "5d4d2219cc9356067cf37532b3e3da8181b1ce10"
+        "ref": "v0.13.12",
+        "sha": "384a408da5fd5d70e52acb2f90beca9aad03752c"
       },
-      "description": "Skills for game-engine selection and for building and verifying games with agent-sprites, agent-meshes and agent-beeps assets across Unity, Unreal, UEFN, Godot and web engines (Phaser, three.js, React Three Fiber, Babylon.js). Includes runnable web 3D examples with GPU verifiers, guarded Unreal GLB import reuse with a per-mesh import policy, a Niagara reference for Unreal 5.8 covering Python and C++-only authoring routes with a validation scene, and an Unreal side-by-side comparison scene. Saved import, cook and runtime acceptance remain separate.",
-      "version": "0.13.11",
+      "description": "Skills for game-engine selection and for building and verifying games with agent-sprites, agent-meshes and agent-beeps assets across Unity, Unreal, UEFN, Godot and web engines (Phaser, three.js, React Three Fiber, Babylon.js). Includes runnable web 3D examples with GPU verifiers, guarded Unreal GLB import reuse with a per-mesh import policy, a Niagara reference for Unreal 5.8 covering Python and C++-only authoring routes with a validation scene and a catalog of the shipped Niagara templates, an Unreal side-by-side comparison scene, and an explorable Niagara showcase with a night scene. Saved import, cook and runtime acceptance remain separate.",
+      "version": "0.13.12",
       "author": {
         "name": "ehartye"
       },
