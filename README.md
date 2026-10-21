@@ -32,7 +32,7 @@ analytics, sprite, layered vector and 3D model authoring, web-app video producti
 
 | Plugin | Description |
 |--------|-------------|
-| [agent-sprites](https://github.com/ehartye/agent-sprites) | Pixel-art sprite authoring for 2D games with parametric shapes, lighting, animation groups, PNG/Aseprite atlas export, and a live collaborative web UI |
+| [agent-sprites](https://github.com/ehartye/agent-sprites) | Editable pixel-art parts and child animations, exact timing, construction replay, offline normal-map lighting, paired PNG/Aseprite atlases, GIF proofs and a shared live workbench |
 | [agent-draw](https://github.com/ehartye/agent-draw) | Vector-first 2D art: editable layered SVG and PNG/PDF, independently drawn pose sequences, named-part keyframe animation and Phaser atlases; craft guidance for anatomy, action, textures, color and world scale |
 | [agent-meshes](https://github.com/ehartye/agent-meshes) | Named-part 3D authoring - rigged, animated GLBs, verified builds and offline previews; declared native inputs and fixed environments, project roots, pins, shared batches and bounded rollback reuse; configured Unreal static-prop geometry/collision inspection; mesh arrays preserving corner UVs and FLOAT_COLOR masks; runtime bytecode filtering and vertex RGB previews; project-owned faces, researched tool selection, rig banks and character craft |
 | [agent-vids](https://github.com/ehartye/agent-vids) | Marketing and training videos of web apps for coding agents - analyse the app, recommend a brief, storyboard it, and render narrated, captioned video checked against 60 evidence-backed craft rules, with reusable channels and style flavors, and a LAN review page where you pick and order exhibits and finalize the stitched video |

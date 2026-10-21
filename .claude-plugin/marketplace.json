@@ -9,10 +9,12 @@
       "name": "agent-sprites",
       "source": {
         "source": "url",
-        "url": "https://github.com/ehartye/agent-sprites.git"
+        "url": "https://github.com/ehartye/agent-sprites.git",
+        "ref": "v0.94.0",
+        "sha": "d3a620b7b4db17b8bc169ef82eaee03e5936566d"
       },
-      "description": "Pixel-art sprite authoring toolset for 2D game projects — parametric shapes, ramp-aware lighting, animation groups, Aseprite JSON atlas export, and a live collaborative web UI. Editable storyboard blocking panels with replayable named shapes, verified PNGs and contact sheets support agent-prose story plans.",
-      "version": "0.93.0",
+      "description": "Editable pixel-art authoring for agents: reusable parts, independent child animation, exact frame timing, construction replay, offline normal-map lighting, paired atlases, GIF proofs and a shared live workbench.",
+      "version": "0.94.0",
       "author": {
         "name": "ehartye"
       },
