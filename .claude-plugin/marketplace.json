@@ -101,15 +101,31 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-engine.git",
-        "ref": "v0.14.0",
-        "sha": "67af720eb436c83840d3a3bacba660d6f23c1bc0"
+        "ref": "v0.15.0",
+        "sha": "6624b7c6139c116215e6b09bc7272ecdff976772"
       },
-      "description": "Skills for game-engine selection and for building and verifying games with agent-sprites, agent-meshes and agent-beeps assets across Unity, Unreal, UEFN, Godot and web engines (Phaser, three.js, React Three Fiber, Babylon.js). Asset import is split by job: cross-engine import, native Unreal games with packaging and profiling, and UEFN. Includes runnable web 3D examples with GPU verifiers, guarded Unreal GLB import reuse with a per-mesh import policy, and an Unreal feature selector with a reference for each of twenty-nine systems (Lumen, Nanite, Virtual Shadow Maps, Gameplay Ability System, Enhanced Input, Sequencer, networking and more) plus Niagara and Editor Python. Saved import, cook and runtime acceptance remain separate.",
-      "version": "0.14.0",
+      "description": "Skills for game-engine selection and for building and verifying games with agent-sprites, agent-meshes and agent-beeps assets across Unity, Unreal, Godot and web engines (Phaser, three.js, React Three Fiber, Babylon.js). Includes runnable web 3D examples with GPU verifiers and the Unreal importer with guarded GLB import reuse and a per-mesh import policy. The Unreal system, native game and UEFN skills are in agent-unreal. Saved import, cook and runtime acceptance remain separate.",
+      "version": "0.15.0",
       "author": {
         "name": "ehartye"
       },
       "repository": "https://github.com/ehartye/agent-engine",
+      "license": "MIT"
+    },
+    {
+      "name": "agent-unreal",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ehartye/agent-unreal.git",
+        "ref": "v0.1.1",
+        "sha": "d854cc715dddb9ed79e4e2c2e32f89cac880fe8e"
+      },
+      "description": "Skills for working in Unreal Engine 5.8 from a coding agent: choose the engine system that fits a goal, with a reference per system (Lumen, Nanite, Virtual Shadow Maps, Niagara, Gameplay Ability System, Enhanced Input, AI, Sequencer, networking and more); build, package and profile a native C++ game; and author for UEFN. Includes example scripts that list plugin states, dump the Python surface and build and validate Niagara scenes.",
+      "version": "0.1.1",
+      "author": {
+        "name": "ehartye"
+      },
+      "repository": "https://github.com/ehartye/agent-unreal",
       "license": "MIT"
     },
     {
