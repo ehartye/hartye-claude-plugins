@@ -104,7 +104,7 @@
         "ref": "v0.16.0",
         "sha": "b1a336efbbbbe6002b7947d30903c4ac9ff6bff8"
       },
-      "description": "Skills for game-engine selection and for building and verifying games with agent-sprites, agent-meshes and agent-beeps assets across Unity, Unreal, Godot and web engines (Phaser, three.js, React Three Fiber, Babylon.js). Includes runnable web 3D examples with GPU verifiers and the Unreal importer with guarded GLB import reuse and a per-mesh import policy. The Unreal system, native game and UEFN skills are in agent-unreal. Saved import, cook and runtime acceptance remain separate.",
+      "description": "Skills for game-engine selection and for building and verifying games with agent-sprites, agent-meshes and agent-beeps assets across Unity, Godot and web engines (Phaser, three.js, React Three Fiber, Babylon.js). Includes runnable web 3D examples with GPU verifiers. The Unreal importer, system, native game and UEFN skills are in agent-unreal. Saved import, cook and runtime acceptance remain separate.",
       "version": "0.16.0",
       "author": {
         "name": "ehartye"
