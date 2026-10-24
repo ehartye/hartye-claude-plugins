@@ -101,11 +101,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-engine.git",
-        "ref": "v0.20.1",
-        "sha": "d71f0fe4ca3f82f12928b5e3ef5bf37d03937725"
+        "ref": "v0.21.0",
+        "sha": "1b4f130ea285f9d40893f6a90ed520e314a215cb"
       },
       "description": "Skills for game-engine selection and for building and verifying games with agent-sprites, agent-meshes and agent-beeps assets across Unity, Godot and web engines (Phaser, three.js, React Three Fiber, Babylon.js). Includes runnable web 3D examples with GPU verifiers. The Unreal importer, system, native game and UEFN skills are in agent-unreal. Saved import, cook and runtime acceptance remain separate.",
-      "version": "0.20.1",
+      "version": "0.21.0",
       "author": {
         "name": "ehartye"
       },
