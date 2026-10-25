@@ -258,11 +258,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-tests.git",
-        "ref": "v0.4.3",
-        "sha": "92dd11ae0b8249d751d9c376e91dd3ca40083a26"
+        "ref": "v0.4.4",
+        "sha": "baec23ce4af403f122775b33dad98791198b63e0"
       },
       "description": "Test-efficiency toolkit for coding agents: structure tests by project phase and risk, audit a suite for redundant, shim, worktree-hostile, unwired, over-frequent and costly native UI tests, and remediate with evidence.",
-      "version": "0.4.3",
+      "version": "0.4.4",
       "author": {
         "name": "ehartye"
       },
