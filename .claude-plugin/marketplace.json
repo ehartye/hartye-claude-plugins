@@ -10,11 +10,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-sprites.git",
-        "ref": "v0.96.0",
-        "sha": "253f25821f700babdf24e3879830725700f2fbe1"
+        "ref": "v0.96.1",
+        "sha": "b3fc214e5b2317c68241839610de1f739c21844f"
       },
       "description": "Editable pixel-art authoring for agents: reusable parts, independent child animation, exact frame timing, construction replay, offline normal-map lighting, paired atlases, GIF proofs and a shared live workbench.",
-      "version": "0.96.0",
+      "version": "0.96.1",
       "author": {
         "name": "ehartye"
       },
@@ -101,11 +101,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-engine.git",
-        "ref": "v0.21.0",
-        "sha": "1b4f130ea285f9d40893f6a90ed520e314a215cb"
+        "ref": "v0.22.0",
+        "sha": "7f47576263cba89ca17678cb87619a375ac082a2"
       },
       "description": "Skills for game-engine selection and for building and verifying games with agent-sprites, agent-meshes and agent-beeps assets across Unity, Godot and web engines (Phaser, three.js, React Three Fiber, Babylon.js). Includes runnable web 3D examples with GPU verifiers. The Unreal importer, system, native game and UEFN skills are in agent-unreal. Saved import, cook and runtime acceptance remain separate.",
-      "version": "0.21.0",
+      "version": "0.22.0",
       "author": {
         "name": "ehartye"
       },
