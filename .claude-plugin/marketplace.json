@@ -117,11 +117,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-unreal.git",
-        "ref": "v0.11.0",
-        "sha": "b9fc1efee2624eb2644b9027a510d9ebaac57a23"
+        "ref": "v0.12.0",
+        "sha": "ad868af30f999cc32686a68142288474d55c6cc5"
       },
-      "description": "Skills for working in Unreal Engine 5.8 from a coding agent: choose the engine system that fits a goal through six domain skills (rendering, effects, animation, gameplay, procedural worlds and editor scripting) with a reference per system (Lumen, Nanite, Virtual Shadow Maps, Niagara, Gameplay Ability System, Enhanced Input, AI, Sequencer, networking and more); build, package and profile a native C++ game; and author for UEFN. Includes example scripts that list plugin states, dump the Python surface and build and validate Niagara scenes.",
-      "version": "0.11.0",
+      "description": "Skills for working in Unreal Engine 5.8 from a coding agent: choose the engine system that fits a goal through six domain skills (rendering, effects, animation, gameplay, procedural worlds and editor scripting) with a reference per system (Lumen, Nanite, Virtual Shadow Maps, Niagara, Gameplay Ability System, Enhanced Input, AI, Sequencer, networking and more); audit a project's structure, tests and performance practice against Epic's documentation and plan the fixes; build, package and profile a native C++ game; and author for UEFN. Includes example scripts that list plugin states, dump the Python surface and build and validate Niagara scenes.",
+      "version": "0.12.0",
       "author": {
         "name": "ehartye"
       },
