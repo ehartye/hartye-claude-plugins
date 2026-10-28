@@ -101,15 +101,31 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-engine.git",
-        "ref": "v0.33.0",
-        "sha": "6bff299d8a7fec0ecd93b815bd4fbce97dcc63f8"
+        "ref": "v0.34.0",
+        "sha": "0f516946d053e64da1355e1b2dab5cc3011744c3"
       },
-      "description": "Skills for game-engine selection and for building and verifying games with agent-sprites, agent-meshes and agent-beeps assets across Unity, Godot and web engines (Phaser, three.js, React Three Fiber, Babylon.js). Includes runnable web 3D examples with GPU verifiers. The Unreal importer, system, native game and UEFN skills are in agent-unreal. Saved import, cook and runtime acceptance remain separate.",
-      "version": "0.33.0",
+      "description": "Skills for game-engine selection and for building and verifying games with agent-sprites, agent-meshes and agent-beeps assets across Unity, Godot and web engines (three.js, React Three Fiber, Babylon.js). Includes runnable web 3D examples with GPU verifiers. The Unreal importer, system, native game and UEFN skills are in agent-unreal, and the Phaser skills are in agent-phaser. Saved import, cook and runtime acceptance remain separate.",
+      "version": "0.34.0",
       "author": {
         "name": "ehartye"
       },
       "repository": "https://github.com/ehartye/agent-engine",
+      "license": "MIT"
+    },
+    {
+      "name": "agent-phaser",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ehartye/agent-phaser.git",
+        "ref": "v0.1.0",
+        "sha": "2cdd19ff8e0a6fcfd245f6585d540316835c27be"
+      },
+      "description": "Skills for building, debugging and proving Phaser 4 games from a coding agent, with browser probes and a test harness behind the claims; pairs with agent-sprites, agent-meshes and agent-beeps assets.",
+      "version": "0.1.0",
+      "author": {
+        "name": "ehartye"
+      },
+      "repository": "https://github.com/ehartye/agent-phaser",
       "license": "MIT"
     },
     {
