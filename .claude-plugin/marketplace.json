@@ -73,7 +73,7 @@
         "url": "https://github.com/ehartye/agent-beeps.git"
       },
       "description": "Procedural and recorded-source hybrid game/UI SFX, plus procedural game music for coding agents: editable Web Audio patches and songs, deterministic sample preparation, portable source bundles, verified baked/live delivery, measurements, craft lint and owner auditions with a learned taste model.",
-      "version": "0.34.1",
+      "version": "0.35.0",
       "author": {
         "name": "ehartye"
       },
@@ -101,11 +101,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-engine.git",
-        "ref": "v0.29.0",
-        "sha": "71439950eb1c3bad1079ce25a0bffba8dad29969"
+        "ref": "v0.33.0",
+        "sha": "6bff299d8a7fec0ecd93b815bd4fbce97dcc63f8"
       },
       "description": "Skills for game-engine selection and for building and verifying games with agent-sprites, agent-meshes and agent-beeps assets across Unity, Godot and web engines (Phaser, three.js, React Three Fiber, Babylon.js). Includes runnable web 3D examples with GPU verifiers. The Unreal importer, system, native game and UEFN skills are in agent-unreal. Saved import, cook and runtime acceptance remain separate.",
-      "version": "0.29.0",
+      "version": "0.33.0",
       "author": {
         "name": "ehartye"
       },
