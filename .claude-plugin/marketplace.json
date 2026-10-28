@@ -248,7 +248,7 @@
         "url": "https://github.com/ehartye/hartye-skills.git"
       },
       "description": "General-purpose utility skills for Claude Code - small, self-contained techniques useful across many projects. beautiful: distinctive frontend design that avoids templated, AI-generated aesthetics, covering direction, typography, layout, motion and interface copy. ship-it: commit, branch, push, PR and squash-merge pending work in one step. yoda: write, audit and diagnose skills - why a SKILL.md never fires, gets ignored, or competes with another. rubber-duck: get a second opinion from the other vendor model and record it verbatim. spec-plan: spec a feature, change or spike before building it - an interview, a wiki search, and a spec saved on the roadmap that plan mode turns into a question-free plan run by parallel subagents",
-      "version": "0.5.0",
+      "version": "0.5.1",
       "author": {
         "name": "ehartye"
       },
@@ -290,11 +290,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-game-studio.git",
-        "ref": "v0.1.1",
-        "sha": "a1a2d266cad735e04d8b04f88ed0b67186de6a65"
+        "ref": "v0.1.2",
+        "sha": "d4ecc473d1c4bc4f5fc592f3fceabe4122e88dbb"
       },
       "description": "Process skills and references that tell an AI agent which phase a game project is in, what comes next, who decides each question and what evidence passes each gate. Technology-agnostic; works for new projects and for adopting an existing one.",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "author": {
         "name": "ehartye"
       },
