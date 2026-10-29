@@ -290,11 +290,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-game-studio.git",
-        "ref": "v0.2.0",
-        "sha": "41c308cd30a2c6e1c7346d61210a03c33537ccd9"
+        "ref": "v0.2.1",
+        "sha": "e555e2c513b1e8a05dbc60eadfc41b5d2e926e7b"
       },
       "description": "Process skills and references that tell an AI agent which phase a game project is in, what comes next, who decides each question and what evidence passes each gate. Technology-agnostic; works for new projects and for adopting an existing one.",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "author": {
         "name": "ehartye"
       },
