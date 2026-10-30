@@ -41,11 +41,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-meshes.git",
-        "ref": "v0.35.0",
-        "sha": "808550a7a8d1a0d3ba44e3575d0f24ad2eb5e002"
+        "ref": "v0.36.0",
+        "sha": "23a510d86471f1683fa46171e05e09d945faae98"
       },
       "description": "Named-part 3D authoring for coding agents: rigged, animated GLBs, verified builds and offline previews. Native Blender builds support declared files/trees, fixed environments, project roots, pins, shared defaults, batch hashing and bounded rollback reuse. Static-prop Unreal checks report geometry, collision and import settings, accept explicit import options and include signed-axis calibration. Mesh-from-arrays preserves UV and FLOAT_COLOR masks. Managed identity excludes generated Python bytecode; native previews inspect active vertex RGB. Includes researched tool selection for Blender Python, Unreal procedural meshes, R3F, Godot, Unity and code-CAD, project-owned face recipes, rig banks and character craft. Seven skills cover selection, setup, authoring, rigging, building, believable form and quality review.",
-      "version": "0.35.0",
+      "version": "0.36.0",
       "author": {
         "name": "ehartye"
       },
