@@ -117,11 +117,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-phaser.git",
-        "ref": "v0.1.8",
-        "sha": "cbbf6029eb21d86b18a036333c99085792afe955"
+        "ref": "v0.1.9",
+        "sha": "207a01b968858f80a2f25388a570e5cb00f38f28"
       },
       "description": "Skills for building, debugging and proving Phaser 4 games from a coding agent, with browser probes and a test harness behind the claims; pairs with agent-sprites, agent-meshes and agent-beeps assets.",
-      "version": "0.1.8",
+      "version": "0.1.9",
       "author": {
         "name": "ehartye"
       },
