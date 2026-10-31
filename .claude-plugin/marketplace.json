@@ -248,7 +248,7 @@
         "url": "https://github.com/ehartye/hartye-skills.git"
       },
       "description": "General-purpose utility skills for Claude Code - small, self-contained techniques useful across many projects. beautiful: distinctive frontend design that avoids templated, AI-generated aesthetics, covering direction, typography, layout, motion and interface copy. ship-it: commit, branch, push, PR and squash-merge pending work in one step. yoda: write, audit and diagnose skills - why a SKILL.md never fires, gets ignored, or competes with another. rubber-duck: get a second opinion from the other vendor model and record it verbatim. spec-plan: spec a feature, change or spike before building it - an interview, a wiki search, and a spec saved on the roadmap that plan mode turns into a question-free plan run by parallel subagents. q-master: outfit a project with the smallest sensible set of plugins - an inventory, an evidence-based selection written as the project's enable and disable file after approval, and the rationale kept in a wiki note. ask-me: offer the agent a free moment and it asks what it has been waiting on, as a structured interview with context and a recommendation for each, and acts on the answers",
-      "version": "0.7.0",
+      "version": "0.7.2",
       "author": {
         "name": "ehartye"
       },
