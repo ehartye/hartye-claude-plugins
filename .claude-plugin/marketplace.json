@@ -218,10 +218,12 @@
       "name": "wiki-master",
       "source": {
         "source": "url",
-        "url": "https://github.com/ehartye/wiki-master.git"
+        "url": "https://github.com/ehartye/wiki-master.git",
+        "ref": "v0.88.0",
+        "sha": "8720f90bee85631b454c88eb4078a8e753b440b8"
       },
       "description": "Maintain a Karpathy-style LLM wiki on Obsidian via the native obsidian CLI - discover and clip web sources, ingest PDFs/DOCX, then query, lint, and relink them into a cross-referenced knowledge vault",
-      "version": "0.87.0",
+      "version": "0.88.0",
       "author": {
         "name": "ehartye"
       },
@@ -245,10 +247,12 @@
       "name": "hartye-skills",
       "source": {
         "source": "url",
-        "url": "https://github.com/ehartye/hartye-skills.git"
+        "url": "https://github.com/ehartye/hartye-skills.git",
+        "ref": "v0.9.2",
+        "sha": "0edc5ab51a5034b389d3e6891207e6fbe54db199"
       },
       "description": "General-purpose utility skills for Claude Code - small, self-contained techniques useful across many projects. beautiful: distinctive frontend design that avoids templated, AI-generated aesthetics, covering direction, typography, layout, motion and interface copy. ship-it: commit, branch, push, PR and squash-merge pending work in one step. yoda: write, audit and diagnose skills - why a SKILL.md never fires, gets ignored, or competes with another. rubber-duck: get a second opinion from the other vendor model and record it verbatim. spec-plan: preload wiki-grounded specs and plan selected ready specs together, with rigor=standard or enhanced. Enhanced rigor reviews each spec with a fresh agent and schedules fresh-agent work-package reviews; the skill finishes at spec and plan handoff. q-master: outfit a project with the smallest sensible set of plugins - an inventory, an evidence-based selection written as the project's enable and disable file after approval, and the rationale kept in a wiki note. ask-me: offer the agent a free moment and it asks what it has been waiting on, as a structured interview with context and a recommendation for each, and acts on the answers",
-      "version": "0.9.1",
+      "version": "0.9.2",
       "author": {
         "name": "ehartye"
       },
@@ -290,11 +294,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-game-studio.git",
-        "ref": "v0.3.1",
-        "sha": "a5e9269c39c82a34e05ca1ce842b5982c4674dec"
+        "ref": "v0.3.2",
+        "sha": "12fcd55073a36d3d882277d39e74a0a2a22cb4e6"
       },
       "description": "Process skills and references that tell an AI agent which phase a game project is in, what comes next, who decides each question and what evidence passes each gate. Technology-agnostic; works for new projects and for adopting an existing one.",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "author": {
         "name": "ehartye"
       },
