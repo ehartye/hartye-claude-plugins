@@ -219,11 +219,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/wiki-master.git",
-        "ref": "v0.89.0",
-        "sha": "ce8ec71473b140672054e0510510fb3e745982d0"
+        "ref": "v0.89.1",
+        "sha": "cabbb83cb0217f2502d1e0dcb10ff50e4e961262"
       },
       "description": "Maintain a Karpathy-style LLM wiki on Obsidian via the native obsidian CLI - discover and clip web sources, ingest PDFs/DOCX, then query, lint, and relink them into a cross-referenced knowledge vault",
-      "version": "0.89.0",
+      "version": "0.89.1",
       "author": {
         "name": "ehartye"
       },
