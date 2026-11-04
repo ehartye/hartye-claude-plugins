@@ -85,11 +85,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-prose.git",
-        "ref": "v0.13.0",
-        "sha": "00dbaad534e32988c5b48a064a4c9a4dc61c7581"
+        "ref": "v0.13.1",
+        "sha": "3452f603209e8331c09b8f2f22a14a5a223568e0"
       },
       "description": "Writing-craft toolkit for coding agents: poems and song lyrics, game dialogue and barks, instructions and docs, textbook teaching, reader targeting and single or batch passage suitability assessment, academic and professional prose, screen and stage scripts, YouTube scripts, speeches, professional presentations and webinars. Twenty-one skills include prose-reading-level for evidence-linked rubric judgments, proposed changes and saved suggestion dispositions, and prose-annotate and prose-annotation-review for source-bound highlights, vocabulary, explanations, links, a shared review workbench and portable publication data for Markdown, static HTML and structured content. Native drafts are measured and linted against cited craft rules. Illustrated storyboards retain editable panels, choices and character quest tracks. Variant sets, owner reviews and a taste model support rewrites; prose audit reports style hallmarks, never authorship. Slide-file creation uses the available presentation tool.",
-      "version": "0.13.0",
+      "version": "0.13.1",
       "author": {
         "name": "ehartye"
       },
