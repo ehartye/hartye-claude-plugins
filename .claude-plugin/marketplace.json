@@ -226,7 +226,7 @@
         "sha": "62e155881554bfe0b8c75dc450cb046e02d6553c"
       },
       "description": "Maintain a Karpathy-style LLM wiki on Obsidian via the native obsidian CLI - discover and clip web sources, ingest PDFs/DOCX, then query, lint, and relink them into a cross-referenced knowledge vault",
-      "version": "0.90.1",
+      "version": "0.91.0",
       "author": {
         "name": "ehartye"
       },
