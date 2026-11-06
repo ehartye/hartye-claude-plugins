@@ -27,6 +27,8 @@ analytics, sprite, layered vector and 3D model authoring, web-app video producti
 /plugin install hartye-skills@hartye-plugins
 /plugin install agent-tests@hartye-plugins
 /plugin install agent-game-studio@hartye-plugins
+/plugin install agent-sa@hartye-plugins
+/plugin install agent-stack@hartye-plugins
 ```
 
 ## Available Plugins
@@ -53,6 +55,8 @@ analytics, sprite, layered vector and 3D model authoring, web-app video producti
 | [agent-tests](https://github.com/ehartye/agent-tests) | Test-efficiency toolkit for coding agents - structure tests by project phase and risk, and audit a suite for redundant coverage, compat and fallback shim tests, worktree-hostile tests, unwired tests and tests that run too often. Evidence from a Node CLI, verdicts from the agent; three skills for TypeScript and JavaScript projects (vitest or jest) |
 | [agent-game-studio](https://github.com/ehartye/agent-game-studio) | Optional game-development role advice and wiki document and backlog maintenance, following project conventions |
 | [agent-workflow](https://github.com/ehartye/agent-workflow) | Codex workflow authoring and execution with durable JS orchestration, parallel agents, item-local pipelines, reviewed artifact handoffs, immutable capture policy and an authenticated session dashboard. Four skills and nine recipes; Windows verified. |
+| [agent-sa](https://github.com/ehartye/agent-sa) | AI solutions architect workflow: turn a customer use case into one validated engagement file, then generate architecture diagrams, a self-contained deck, a demo runbook, a gated estimate and a delivery handoff from it. Six skills: sa-discover, sa-frame, sa-architect, sa-prototype, sa-scope, sa-deliver. Node.js 22+, no dependencies. |
+| [agent-stack](https://github.com/ehartye/agent-stack) | Compare and select frontier models, cloud agent backends and frontend stacks for AI products on AWS, Azure and Google Cloud: dated sourced facts, hard-constraint gates, per-route capacity arithmetic and checked decision records. Three skills: stack-models, stack-backend, stack-frontend. Node.js 22+, no dependencies. |
 
 ### Agent Workflow in Codex
 
