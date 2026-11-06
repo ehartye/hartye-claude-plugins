@@ -323,6 +323,38 @@
       },
       "repository": "https://github.com/ehartye/agent-workflow",
       "license": "MIT"
+    },
+    {
+      "name": "agent-sa",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ehartye/agent-sa.git",
+        "ref": "v0.1.0",
+        "sha": "2522b52860662cca1f1a73532164aac500dc6cc2"
+      },
+      "description": "AI solutions architect workflow: turn a customer use case into one validated engagement file, then generate architecture diagrams, a self-contained deck, a demo runbook, a gated estimate and a delivery handoff from it. Six skills: sa-discover, sa-frame, sa-architect, sa-prototype, sa-scope, sa-deliver. Node.js 22+, no dependencies.",
+      "version": "0.1.0",
+      "author": {
+        "name": "ehartye"
+      },
+      "repository": "https://github.com/ehartye/agent-sa",
+      "license": "MIT"
+    },
+    {
+      "name": "agent-stack",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ehartye/agent-stack.git",
+        "ref": "v0.1.0",
+        "sha": "e557aa08d8227b06d6baef0d5a7eeadf46405b62"
+      },
+      "description": "Compare and select frontier models, cloud agent backends and frontend stacks for AI products on AWS, Azure and Google Cloud: dated sourced facts, hard-constraint gates, per-route capacity arithmetic and checked decision records. Three skills: stack-models, stack-backend, stack-frontend. Node.js 22+, no dependencies.",
+      "version": "0.1.0",
+      "author": {
+        "name": "ehartye"
+      },
+      "repository": "https://github.com/ehartye/agent-stack",
+      "license": "MIT"
     }
   ]
 }
