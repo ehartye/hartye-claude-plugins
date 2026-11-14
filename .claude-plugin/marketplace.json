@@ -74,11 +74,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-beeps.git",
-        "ref": "v0.38.0",
-        "sha": "6cd5612bdf0e33a372278719069665cef45691d9"
+        "ref": "v0.40.0",
+        "sha": "835c549c207bffc2647a911100f929bd2dee564a"
       },
       "description": "Procedural and recorded-source hybrid game/UI SFX, plus procedural game music for coding agents: editable Web Audio patches and songs, deterministic sample preparation, portable source bundles, verified baked/live delivery, measurements, craft lint and owner auditions with a learned taste model.",
-      "version": "0.38.0",
+      "version": "0.40.0",
       "author": {
         "name": "ehartye"
       },
