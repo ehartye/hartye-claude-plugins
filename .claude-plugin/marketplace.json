@@ -10,11 +10,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-sprites.git",
-        "ref": "v0.105.0",
-        "sha": "3644642dd1420b8381d33c0b681915ef07ad744f"
+        "ref": "v0.105.1",
+        "sha": "1e7b3c9e8e3b752ba10a3380082023a10ffcc50f"
       },
       "description": "Editable pixel-art authoring for agents: reusable parts, independent child animation, exact frame timing, construction replay, offline normal-map lighting, paired atlases, GIF proofs and a shared live workbench.",
-      "version": "0.105.0",
+      "version": "0.105.1",
       "author": {
         "name": "ehartye"
       },
