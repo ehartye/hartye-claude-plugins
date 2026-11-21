@@ -42,11 +42,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-meshes.git",
-        "ref": "v0.50.0",
-        "sha": "a84f978ee7d9a2ca64f64a153f64516ddbbd0779"
+        "ref": "v0.50.1",
+        "sha": "f6bc707c72aa211b24b094c3eb7d39829dd86580"
       },
       "description": "Named-part 3D authoring for coding agents: rigged, animated GLBs, verified builds and offline previews. Native Blender builds support declared files/trees, fixed environments, project roots, pins, shared defaults, batch hashing and bounded rollback reuse. Static-prop Unreal checks report geometry, collision and import settings, accept explicit import options and include signed-axis calibration. Mesh-from-arrays preserves UV and FLOAT_COLOR masks. Managed identity excludes generated Python bytecode; native previews inspect active vertex RGB. Includes researched tool selection for Blender Python, Unreal procedural meshes, R3F, Godot, Unity and code-CAD, project-owned face recipes, rig banks and character craft. A local animation library page imports Mixamo downloads into your own private folder with mannequin GIF previews, motion summaries, tags, copyable move sets and git sync. Eight skills cover selection, setup, authoring, rigging, animations, building, believable form and quality review.",
-      "version": "0.50.0",
+      "version": "0.50.1",
       "author": {
         "name": "ehartye"
       },
