@@ -357,6 +357,22 @@
       },
       "repository": "https://github.com/ehartye/agent-stack",
       "license": "MIT"
+    },
+    {
+      "name": "agent-frc",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ehartye/agent-frc.git",
+        "ref": "v0.104.0",
+        "sha": "33494df45c4556a559b3ee0fa3839d38350ebca8"
+      },
+      "description": "Season-aware high-school FRC engineering guidance with explicit evidence and optional local vault grounding. Eighteen skills take a team from a supplied game manual to a rules model, field rehearsal, strategy comparison, conceptual, preliminary and detailed robot design, mechanical readiness review and a student showcase. Node.js 20.11+, no npm dependencies; installs in Claude Code and Codex.",
+      "version": "0.104.0",
+      "author": {
+        "name": "ehartye"
+      },
+      "repository": "https://github.com/ehartye/agent-frc",
+      "license": "MIT"
     }
   ]
 }
