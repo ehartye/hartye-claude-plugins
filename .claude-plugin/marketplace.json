@@ -357,6 +357,22 @@
       },
       "repository": "https://github.com/ehartye/agent-stack",
       "license": "MIT"
+    },
+    {
+      "name": "agent-judgement",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ehartye/agent-judgement.git",
+        "ref": "v0.1.1",
+        "sha": "868b59146083f79f0804536e68e71b086d4526ca"
+      },
+      "description": "Guided decision making for Claude Code and Codex: frame the question, write down where you lean, widen the options, weigh them one thing at a time, test the favourite, commit with a forecast, and come back to learn. One JSON record per decision and an offline HTML board, no runtime. Three skills: judgement-decide, judgement-look-back, judgement-board.",
+      "version": "0.1.1",
+      "author": {
+        "name": "ehartye"
+      },
+      "repository": "https://github.com/ehartye/agent-judgement",
+      "license": "MIT"
     }
   ]
 }
