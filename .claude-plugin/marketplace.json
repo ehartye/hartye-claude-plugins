@@ -363,11 +363,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ehartye/agent-judgement.git",
-        "ref": "v0.1.1",
-        "sha": "868b59146083f79f0804536e68e71b086d4526ca"
+        "ref": "v0.1.2",
+        "sha": "c7fd9941aa9a33effe0a070478c86414d3dcb367"
       },
       "description": "Guided decision making for Claude Code and Codex: frame the question, write down where you lean, widen the options, weigh them one thing at a time, test the favourite, commit with a forecast, and come back to learn. One JSON record per decision and an offline HTML board, no runtime. Three skills: judgement-decide, judgement-look-back, judgement-board.",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "author": {
         "name": "ehartye"
       },
